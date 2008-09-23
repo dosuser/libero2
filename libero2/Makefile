@@ -1,3 +1,5 @@
+PWD = ~/
+SITE = https://libero2.googlecode.com/svn/trunk/ --username dosuser00
 CC = gcc
 INCLUDE = -I./ \
 					-I./lib/\
@@ -12,3 +14,7 @@ all: $(OBJ)
 clean:
 	rm *.o
 	rm a.out
+ci:
+	source ~/libero2/svn_m_read.sh
+co:
+	svn co $(SITE) $(PWD)
