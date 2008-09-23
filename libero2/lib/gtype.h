@@ -1,7 +1,7 @@
 #ifndef _GTYPE_H
 #define _GTYPE_H
 
-typedef void * gpointer;
+typedef  void*  gpointer;
 
 #endif
 

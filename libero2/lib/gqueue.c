@@ -47,7 +47,10 @@ int queue_write(gqueue *pQueue,gpointer target){
 }
 
 int queue_read(gqueue *pQueue,gpointer *target){
-	if(isEmpty(pQueue)) return 0;
+	if(isEmpty(pQueue)){
+		*target==NULL;
+		return 0;		
+	}
 	*target=pQueue->buffer[pQueue->front];
 	front_go(pQueue);
 	return 1;
@@ -56,5 +59,6 @@ int queue_read(gqueue *pQueue,gpointer *target){
 int queue_top(gqueue *pQueue,gpointer *target){
 	if(isEmpty(pQueue)) return 0;
 	target=(void *)*(pQueue->buffer + pQueue->front );
+	*target=NULL;
 	return 1;
 }

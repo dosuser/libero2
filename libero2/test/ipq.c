@@ -418,8 +418,6 @@ static void proc_ipq(context_t *cxt)
 	fprintf(stderr, "\nprocessing...\n");
 
 	do {
-		int a;
-		for(a=0;a<1000;a++);
 		ret = ipq_read(cxt->ipq, cxt->buf, BUFFSZ, 0);
 		if (ret < 0) {
 			/* error */
@@ -431,13 +429,15 @@ static void proc_ipq(context_t *cxt)
 			continue;
 		}
 
+
+
 		type = ipq_message_type(cxt->buf);
 		switch (type) {
 		case IPQM_PACKET:
-			//ret = proc_packet(cxt);
-			//if (ret < 0) {
-			//	fprintf(stderr, "ipq: %s\n", ipq_errstr());
-			//}
+			ret = proc_packet(cxt);
+			if (ret < 0) {
+				fprintf(stderr, "ipq: %s\n", ipq_errstr());
+			}
 			m= ipq_get_packet(cxt->buf);
 
 
@@ -450,9 +450,6 @@ static void proc_ipq(context_t *cxt)
 		default:
 			fprintf(stderr, "unknown packet type.\n");
 		}
-		free(cxt->buf);
-		cxt->buf = malloc(BUFFSZ);
-		free(m);
 	} while (1);
 }
 
