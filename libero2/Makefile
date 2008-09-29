@@ -6,9 +6,10 @@ INCLUDE = -I./ \
 					-I/root/iptables-1.4.1.1/include/libipq/
 
 CFLAGS = $(INCLUDE) -ldl -lpcre -lpthread
-DATALIB = lib/glist.o lib/gqueue.o 
+DATALIB = lib/glist.o lib/gqueue.o
+LOGGINGLIB = lib/logging.o
 OBJ = prebuilt/libipq.o dump.o \
-			module.o $(DATALIB)
+			module.o $(DATALIB) $(LOGGINGLIB)
 all: $(OBJ)
 	$(CC) -o a.out libero.c  $(OBJ) $(CFLAGS)  -rdynamic -ldl
 clean:
