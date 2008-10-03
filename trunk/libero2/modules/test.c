@@ -2,7 +2,7 @@
 #include <linux/netfilter.h>
 #include <libipq.h>
 #include <pcre.h>
-
+#include "../lib/logging.h"
 #define OVECCOUNT 3*20
 
 int getModuleType(){
@@ -25,11 +25,11 @@ int module_main(const struct ipq_handle *h,ipq_packet_msg_t *ipq,const char *msg
 	if(rc < 0){
 		switch(rc){
 						case PCRE_ERROR_NOMATCH:
-							printf("test1: there is no XSS\n");
+							dlog(0,"test1: there is no XSS\n");
 							return NF_ACCEPT;
 							break;
 						default:
-							printf("error regualar expression was broken!\n");
+							dlog(0,"error regualar expression was broken!\n");
 							exit(1);
 		}
 		pcre_free(rex1);
@@ -38,7 +38,7 @@ int module_main(const struct ipq_handle *h,ipq_packet_msg_t *ipq,const char *msg
 	if(rc==0){
 					rc=OVECCOUNT/3;
 	}
-	fprintf(stderr,"denyed\n");
+	dlog(0,"denyed\n");
 	pcre_free(rex1);
 	return NF_DROP;
 }
