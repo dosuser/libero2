@@ -17,7 +17,6 @@ void dump_ip(struct iphdr *ipd){
 	dlog(1,"tot_len :%u\n", ipd->tot_len);
 	dlog(1,"Source : %s\n",inet_ntoa(ipd->saddr));
 	dlog(1,"Dest   : %s\n",inet_ntoa(ipd->daddr));
-	dlog(1,"\n");
 					
 
 }
