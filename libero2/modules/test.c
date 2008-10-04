@@ -3,6 +3,7 @@
 #include <libipq.h>
 #include <pcre.h>
 #include "../lib/logging.h"
+#include "../libero.h"
 #define OVECCOUNT 3*20
 
 int getModuleType(){
@@ -26,7 +27,7 @@ int module_main(const struct ipq_handle *h,ipq_packet_msg_t *ipq,const char *msg
 		switch(rc){
 						case PCRE_ERROR_NOMATCH:
 							dlog(0,"test1: there is no XSS\n");
-							return NF_ACCEPT;
+							return SIN_CONTINUE;
 							break;
 						default:
 							dlog(0,"error regualar expression was broken!\n");
@@ -40,5 +41,5 @@ int module_main(const struct ipq_handle *h,ipq_packet_msg_t *ipq,const char *msg
 	}
 	dlog(0,"denyed\n");
 	pcre_free(rex1);
-	return NF_DROP;
+	return SIN_DENY;
 }
