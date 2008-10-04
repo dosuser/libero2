@@ -85,14 +85,6 @@ gpointer safe_dequeue(gqueue *queue){
 	if(node!=NULL) dlog(0,"dequeue\n");
 	return node;
 }
-typedef struct _ctx{
-	char *buf;
-	int flag;
-	int status;
-	struct ipq_handle *h;
-	gpointer extra;
-} packet_ctx;
-
 void *patching(void *t){
 	/**************
 	* 변수 설정
@@ -195,14 +187,28 @@ void *processing(void *t){
 					
 					ip =(struct iphdr *) packet;
 					if(ip->protocol != 6){ //6 is TCP protocol number
-						ipq_set_verdict(ctx->h,m->packet_id,result,0,NULL);
+						ipq_set_verdict(ctx->h,m->packet_id,NF_ACCEPT,0,NULL);
 					}
 					
 					tcp =(struct tcphdr *) packet + sizeof(struct iphdr);
 					dump_ip((struct iphdr *)packet);
 					dump((char *)tcp,240);
 					
-					
+					/***********************************
+						packetInfo 설정
+
+					***********************************/
+				
+					if(strcmp(m->outdev_name,"eth0")==0){
+						packetInfo->direction = C2OUT;
+					}else if(strcmp(m->indev_name,"eth0")==0){
+						packetInfo->direction = OUT2C;
+					}
+					packetInfo->verdicted = 0;
+					packetInfo->modified=0;
+					packetInfo->action =SIN_ACCEPT;
+
+				
 
 					/************************
 						분류기
@@ -258,6 +264,9 @@ void *processing(void *t){
 					* 위에서 처리 한 결과대로 처리한다.
 					* verdict는 한번만 호출되어야 하는것 같다.
 					***********************/
+
+
+
 					/********************
 						윈도우 사이즈 조절
 					*******************/
@@ -267,17 +276,26 @@ void *processing(void *t){
 							win = ntohs(tcp->window);
 							if(win>MAXIMUM_WINDOW_SIZE){
 								tcp->window =htons(MAXIMUM_WINDOW_SIZE);
+								packetInfo->modified=1;
 								//패킷을 수정 했으니 이것을 verdict 하도록 수정해야한다.
 
 							}
 						#elif __BYTE_ORDER == __BIG_ENDIAN
 							if(win>MAXIMUM_WINDOW_SIZE) {
 								tcp->window = MAXIMUM_WINDOW_SIZE;
+								packetInfo->modified=1;
 								//패킷을 수정 했으니 이것을 verdict 하도록 수정해야한다. 
 						#endif
 					}
-						
-					status = ipq_set_verdict(ctx->h, m->packet_id,result, 0, NULL);
+					if(	packetInfo->modified == 0){
+						status = ipq_set_verdict(ctx->h, m->packet_id,result, 0, NULL);
+					}else{
+						/*******************
+							패킷 수정됐으니 체크섬 재계산-_-
+						*******************/
+						status = ipq_set_verdict(ctx->h, m->packet_id,result, 0,NULL);
+
+					}
 
 					if (status < 0) die(ctx->h);
 					break;
