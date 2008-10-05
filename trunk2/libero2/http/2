@@ -1,0 +1,21 @@
+#include <linux/nefilter.h>
+
+
+/************************
+* 패킷을 가로채어 클라이언트에게 메시지를 보낼 수 있도록 한다.
+* 
+
+  case 1
+	 사용자의 첫 SYN 메시지에 문제가 있는 경우
+
+	 recver와 sender를 바꾼다.
+	 seq를 ack로 하고 
+	 seq를 임의로 정하고 SYN으로 보낸다. 
+
+************************/
+int tcp_transmute(ipq_packet_msg_t *ori){
+
+	
+
+
+}

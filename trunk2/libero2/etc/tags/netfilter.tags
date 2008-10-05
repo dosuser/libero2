@@ -1,0 +1,737 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+ADD_COUNTER	/usr/include/linux/netfilter/x_tables.h	116;"	d
+CONNSECMARK_RESTORE	/usr/include/linux/netfilter/xt_CONNSECMARK.h	/^	CONNSECMARK_RESTORE,$/;"	e	enum:__anon6
+CONNSECMARK_SAVE	/usr/include/linux/netfilter/xt_CONNSECMARK.h	/^	CONNSECMARK_SAVE = 1,$/;"	e	enum:__anon6
+CTA_COUNTERS32_BYTES	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_COUNTERS32_BYTES,$/;"	e	enum:ctattr_counters
+CTA_COUNTERS32_PACKETS	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_COUNTERS32_PACKETS,$/;"	e	enum:ctattr_counters
+CTA_COUNTERS_BYTES	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_COUNTERS_BYTES,		\/* old 64bit counters *\/$/;"	e	enum:ctattr_counters
+CTA_COUNTERS_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	98;"	d
+CTA_COUNTERS_ORIG	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_COUNTERS_ORIG,$/;"	e	enum:ctattr_type
+CTA_COUNTERS_PACKETS	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_COUNTERS_PACKETS,		\/* old 64bit counters *\/$/;"	e	enum:ctattr_counters
+CTA_COUNTERS_REPLY	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_COUNTERS_REPLY,$/;"	e	enum:ctattr_type
+CTA_COUNTERS_UNSPEC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_COUNTERS_UNSPEC,$/;"	e	enum:ctattr_counters
+CTA_EXPECT_HELP_NAME	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_EXPECT_HELP_NAME,$/;"	e	enum:ctattr_expect
+CTA_EXPECT_ID	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_EXPECT_ID,$/;"	e	enum:ctattr_expect
+CTA_EXPECT_MASK	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_EXPECT_MASK,$/;"	e	enum:ctattr_expect
+CTA_EXPECT_MASTER	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_EXPECT_MASTER,$/;"	e	enum:ctattr_expect
+CTA_EXPECT_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	127;"	d
+CTA_EXPECT_TIMEOUT	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_EXPECT_TIMEOUT,$/;"	e	enum:ctattr_expect
+CTA_EXPECT_TUPLE	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_EXPECT_TUPLE,$/;"	e	enum:ctattr_expect
+CTA_EXPECT_UNSPEC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_EXPECT_UNSPEC,$/;"	e	enum:ctattr_expect
+CTA_HELP	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_HELP,$/;"	e	enum:ctattr_type
+CTA_HELP_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	134;"	d
+CTA_HELP_NAME	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_HELP_NAME,$/;"	e	enum:ctattr_help
+CTA_HELP_UNSPEC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_HELP_UNSPEC,$/;"	e	enum:ctattr_help
+CTA_ID	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_ID,$/;"	e	enum:ctattr_type
+CTA_IP_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	59;"	d
+CTA_IP_UNSPEC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_IP_UNSPEC,$/;"	e	enum:ctattr_ip
+CTA_IP_V4_DST	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_IP_V4_DST,$/;"	e	enum:ctattr_ip
+CTA_IP_V4_SRC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_IP_V4_SRC,$/;"	e	enum:ctattr_ip
+CTA_IP_V6_DST	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_IP_V6_DST,$/;"	e	enum:ctattr_ip
+CTA_IP_V6_SRC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_IP_V6_SRC,$/;"	e	enum:ctattr_ip
+CTA_MARK	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_MARK,$/;"	e	enum:ctattr_type
+CTA_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	41;"	d
+CTA_NAT	/usr/include/linux/netfilter/nfnetlink_conntrack.h	31;"	d
+CTA_NAT_DST	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_NAT_DST,$/;"	e	enum:ctattr_type
+CTA_NAT_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	107;"	d
+CTA_NAT_MAXIP	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_NAT_MAXIP,$/;"	e	enum:ctattr_nat
+CTA_NAT_MINIP	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_NAT_MINIP,$/;"	e	enum:ctattr_nat
+CTA_NAT_PROTO	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_NAT_PROTO,$/;"	e	enum:ctattr_nat
+CTA_NAT_SRC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_NAT_SRC,$/;"	e	enum:ctattr_type
+CTA_NAT_UNSPEC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_NAT_UNSPEC,$/;"	e	enum:ctattr_nat
+CTA_PROTOINFO	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTOINFO,$/;"	e	enum:ctattr_type
+CTA_PROTOINFO_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	81;"	d
+CTA_PROTOINFO_TCP	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTOINFO_TCP,$/;"	e	enum:ctattr_protoinfo
+CTA_PROTOINFO_TCP_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	88;"	d
+CTA_PROTOINFO_TCP_STATE	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTOINFO_TCP_STATE,$/;"	e	enum:ctattr_protoinfo_tcp
+CTA_PROTOINFO_TCP_UNSPEC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTOINFO_TCP_UNSPEC,$/;"	e	enum:ctattr_protoinfo_tcp
+CTA_PROTOINFO_UNSPEC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTOINFO_UNSPEC,$/;"	e	enum:ctattr_protoinfo
+CTA_PROTONAT_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	115;"	d
+CTA_PROTONAT_PORT_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTONAT_PORT_MAX,$/;"	e	enum:ctattr_protonat
+CTA_PROTONAT_PORT_MIN	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTONAT_PORT_MIN,$/;"	e	enum:ctattr_protonat
+CTA_PROTONAT_UNSPEC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTONAT_UNSPEC,$/;"	e	enum:ctattr_protonat
+CTA_PROTO_DST_PORT	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTO_DST_PORT,$/;"	e	enum:ctattr_l4proto
+CTA_PROTO_ICMPV6_CODE	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTO_ICMPV6_CODE,$/;"	e	enum:ctattr_l4proto
+CTA_PROTO_ICMPV6_ID	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTO_ICMPV6_ID,$/;"	e	enum:ctattr_l4proto
+CTA_PROTO_ICMPV6_TYPE	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTO_ICMPV6_TYPE,$/;"	e	enum:ctattr_l4proto
+CTA_PROTO_ICMP_CODE	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTO_ICMP_CODE,$/;"	e	enum:ctattr_l4proto
+CTA_PROTO_ICMP_ID	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTO_ICMP_ID,$/;"	e	enum:ctattr_l4proto
+CTA_PROTO_ICMP_TYPE	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTO_ICMP_TYPE,$/;"	e	enum:ctattr_l4proto
+CTA_PROTO_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	74;"	d
+CTA_PROTO_NUM	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTO_NUM,$/;"	e	enum:ctattr_l4proto
+CTA_PROTO_SRC_PORT	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTO_SRC_PORT,$/;"	e	enum:ctattr_l4proto
+CTA_PROTO_UNSPEC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_PROTO_UNSPEC,$/;"	e	enum:ctattr_l4proto
+CTA_STATUS	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_STATUS,$/;"	e	enum:ctattr_type
+CTA_TIMEOUT	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_TIMEOUT,$/;"	e	enum:ctattr_type
+CTA_TUPLE_IP	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_TUPLE_IP,$/;"	e	enum:ctattr_tuple
+CTA_TUPLE_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	49;"	d
+CTA_TUPLE_ORIG	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_TUPLE_ORIG,$/;"	e	enum:ctattr_type
+CTA_TUPLE_PROTO	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_TUPLE_PROTO,$/;"	e	enum:ctattr_tuple
+CTA_TUPLE_REPLY	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_TUPLE_REPLY,$/;"	e	enum:ctattr_type
+CTA_TUPLE_UNSPEC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_TUPLE_UNSPEC,$/;"	e	enum:ctattr_tuple
+CTA_UNSPEC	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_UNSPEC,$/;"	e	enum:ctattr_type
+CTA_USE	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	CTA_USE,$/;"	e	enum:ctattr_type
+CTINFO2DIR	/usr/include/linux/netfilter/nf_conntrack_tuple_common.h	11;"	d
+ELEMCOUNT	/usr/include/linux/netfilter/xt_sctp.h	10;"	d
+IPCTNL_MSG_CT_DELETE	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	IPCTNL_MSG_CT_DELETE,$/;"	e	enum:cntl_msg_types
+IPCTNL_MSG_CT_GET	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	IPCTNL_MSG_CT_GET,$/;"	e	enum:cntl_msg_types
+IPCTNL_MSG_CT_GET_CTRZERO	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	IPCTNL_MSG_CT_GET_CTRZERO,$/;"	e	enum:cntl_msg_types
+IPCTNL_MSG_CT_NEW	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	IPCTNL_MSG_CT_NEW,$/;"	e	enum:cntl_msg_types
+IPCTNL_MSG_EXP_DELETE	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	IPCTNL_MSG_EXP_DELETE,$/;"	e	enum:ctnl_exp_msg_types
+IPCTNL_MSG_EXP_GET	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	IPCTNL_MSG_EXP_GET,$/;"	e	enum:ctnl_exp_msg_types
+IPCTNL_MSG_EXP_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	IPCTNL_MSG_EXP_MAX$/;"	e	enum:ctnl_exp_msg_types
+IPCTNL_MSG_EXP_NEW	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	IPCTNL_MSG_EXP_NEW,$/;"	e	enum:ctnl_exp_msg_types
+IPCTNL_MSG_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	IPCTNL_MSG_MAX$/;"	e	enum:cntl_msg_types
+IPCT_COUNTER_FILLING	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_COUNTER_FILLING = (1 << IPCT_COUNTER_FILLING_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_COUNTER_FILLING_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_COUNTER_FILLING_BIT = 11,$/;"	e	enum:ip_conntrack_events
+IPCT_DESTROY	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_DESTROY = (1 << IPCT_DESTROY_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_DESTROY_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_DESTROY_BIT = 2,$/;"	e	enum:ip_conntrack_events
+IPCT_HELPER	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_HELPER = (1 << IPCT_HELPER_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_HELPER_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_HELPER_BIT = 7,$/;"	e	enum:ip_conntrack_events
+IPCT_HELPINFO	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_HELPINFO = (1 << IPCT_HELPINFO_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_HELPINFO_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_HELPINFO_BIT = 8,$/;"	e	enum:ip_conntrack_events
+IPCT_HELPINFO_VOLATILE	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_HELPINFO_VOLATILE = (1 << IPCT_HELPINFO_VOLATILE_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_HELPINFO_VOLATILE_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_HELPINFO_VOLATILE_BIT = 9,$/;"	e	enum:ip_conntrack_events
+IPCT_NATINFO	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_NATINFO = (1 << IPCT_NATINFO_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_NATINFO_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_NATINFO_BIT = 10,$/;"	e	enum:ip_conntrack_events
+IPCT_NEW	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_NEW = (1 << IPCT_NEW_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_NEW_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_NEW_BIT = 0,$/;"	e	enum:ip_conntrack_events
+IPCT_PROTOINFO	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_PROTOINFO = (1 << IPCT_PROTOINFO_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_PROTOINFO_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_PROTOINFO_BIT = 5,$/;"	e	enum:ip_conntrack_events
+IPCT_PROTOINFO_VOLATILE	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_PROTOINFO_VOLATILE = (1 << IPCT_PROTOINFO_VOLATILE_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_PROTOINFO_VOLATILE_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_PROTOINFO_VOLATILE_BIT = 6,$/;"	e	enum:ip_conntrack_events
+IPCT_REFRESH	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_REFRESH = (1 << IPCT_REFRESH_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_REFRESH_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_REFRESH_BIT = 3,$/;"	e	enum:ip_conntrack_events
+IPCT_RELATED	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_RELATED = (1 << IPCT_RELATED_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_RELATED_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_RELATED_BIT = 1,$/;"	e	enum:ip_conntrack_events
+IPCT_STATUS	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_STATUS = (1 << IPCT_STATUS_BIT),$/;"	e	enum:ip_conntrack_events
+IPCT_STATUS_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPCT_STATUS_BIT = 4,$/;"	e	enum:ip_conntrack_events
+IPEXP_NEW	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPEXP_NEW = (1 << IPEXP_NEW_BIT),$/;"	e	enum:ip_conntrack_expect_events
+IPEXP_NEW_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPEXP_NEW_BIT = 0,$/;"	e	enum:ip_conntrack_expect_events
+IPS_ASSURED	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_ASSURED = (1 << IPS_ASSURED_BIT),$/;"	e	enum:ip_conntrack_status
+IPS_ASSURED_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_ASSURED_BIT = 2,$/;"	e	enum:ip_conntrack_status
+IPS_CONFIRMED	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_CONFIRMED = (1 << IPS_CONFIRMED_BIT),$/;"	e	enum:ip_conntrack_status
+IPS_CONFIRMED_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_CONFIRMED_BIT = 3,$/;"	e	enum:ip_conntrack_status
+IPS_DST_NAT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_DST_NAT = (1 << IPS_DST_NAT_BIT),$/;"	e	enum:ip_conntrack_status
+IPS_DST_NAT_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_DST_NAT_BIT = 5,$/;"	e	enum:ip_conntrack_status
+IPS_DST_NAT_DONE	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_DST_NAT_DONE = (1 << IPS_DST_NAT_DONE_BIT),$/;"	e	enum:ip_conntrack_status
+IPS_DST_NAT_DONE_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_DST_NAT_DONE_BIT = 8,$/;"	e	enum:ip_conntrack_status
+IPS_DYING	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_DYING = (1 << IPS_DYING_BIT),$/;"	e	enum:ip_conntrack_status
+IPS_DYING_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_DYING_BIT = 9,$/;"	e	enum:ip_conntrack_status
+IPS_EXPECTED	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_EXPECTED = (1 << IPS_EXPECTED_BIT),$/;"	e	enum:ip_conntrack_status
+IPS_EXPECTED_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_EXPECTED_BIT = 0,$/;"	e	enum:ip_conntrack_status
+IPS_FIXED_TIMEOUT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_FIXED_TIMEOUT = (1 << IPS_FIXED_TIMEOUT_BIT),$/;"	e	enum:ip_conntrack_status
+IPS_FIXED_TIMEOUT_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_FIXED_TIMEOUT_BIT = 10,$/;"	e	enum:ip_conntrack_status
+IPS_NAT_DONE_MASK	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_NAT_DONE_MASK = (IPS_DST_NAT_DONE | IPS_SRC_NAT_DONE),$/;"	e	enum:ip_conntrack_status
+IPS_NAT_MASK	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_NAT_MASK = (IPS_DST_NAT | IPS_SRC_NAT),$/;"	e	enum:ip_conntrack_status
+IPS_SEEN_REPLY	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_SEEN_REPLY = (1 << IPS_SEEN_REPLY_BIT),$/;"	e	enum:ip_conntrack_status
+IPS_SEEN_REPLY_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_SEEN_REPLY_BIT = 1,$/;"	e	enum:ip_conntrack_status
+IPS_SEQ_ADJUST	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_SEQ_ADJUST = (1 << IPS_SEQ_ADJUST_BIT),$/;"	e	enum:ip_conntrack_status
+IPS_SEQ_ADJUST_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_SEQ_ADJUST_BIT = 6,$/;"	e	enum:ip_conntrack_status
+IPS_SRC_NAT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_SRC_NAT = (1 << IPS_SRC_NAT_BIT),$/;"	e	enum:ip_conntrack_status
+IPS_SRC_NAT_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_SRC_NAT_BIT = 4,$/;"	e	enum:ip_conntrack_status
+IPS_SRC_NAT_DONE	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_SRC_NAT_DONE = (1 << IPS_SRC_NAT_DONE_BIT),$/;"	e	enum:ip_conntrack_status
+IPS_SRC_NAT_DONE_BIT	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IPS_SRC_NAT_DONE_BIT = 7,$/;"	e	enum:ip_conntrack_status
+IP_CT_DIR_MAX	/usr/include/linux/netfilter/nf_conntrack_tuple_common.h	/^	IP_CT_DIR_MAX$/;"	e	enum:ip_conntrack_dir
+IP_CT_DIR_ORIGINAL	/usr/include/linux/netfilter/nf_conntrack_tuple_common.h	/^	IP_CT_DIR_ORIGINAL,$/;"	e	enum:ip_conntrack_dir
+IP_CT_DIR_REPLY	/usr/include/linux/netfilter/nf_conntrack_tuple_common.h	/^	IP_CT_DIR_REPLY,$/;"	e	enum:ip_conntrack_dir
+IP_CT_ESTABLISHED	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IP_CT_ESTABLISHED,$/;"	e	enum:ip_conntrack_info
+IP_CT_FTP_EPRT	/usr/include/linux/netfilter/nf_conntrack_ftp.h	/^	IP_CT_FTP_EPRT,$/;"	e	enum:ip_ct_ftp_type
+IP_CT_FTP_EPSV	/usr/include/linux/netfilter/nf_conntrack_ftp.h	/^	IP_CT_FTP_EPSV,$/;"	e	enum:ip_ct_ftp_type
+IP_CT_FTP_PASV	/usr/include/linux/netfilter/nf_conntrack_ftp.h	/^	IP_CT_FTP_PASV,$/;"	e	enum:ip_ct_ftp_type
+IP_CT_FTP_PORT	/usr/include/linux/netfilter/nf_conntrack_ftp.h	/^	IP_CT_FTP_PORT,$/;"	e	enum:ip_ct_ftp_type
+IP_CT_IS_REPLY	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IP_CT_IS_REPLY,$/;"	e	enum:ip_conntrack_info
+IP_CT_NEW	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IP_CT_NEW,$/;"	e	enum:ip_conntrack_info
+IP_CT_NUMBER	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IP_CT_NUMBER = IP_CT_IS_REPLY * 2 - 1$/;"	e	enum:ip_conntrack_info
+IP_CT_RELATED	/usr/include/linux/netfilter/nf_conntrack_common.h	/^	IP_CT_RELATED,$/;"	e	enum:ip_conntrack_info
+IP_CT_TCP_FLAG_CLOSE_INIT	/usr/include/linux/netfilter/nf_conntrack_tcp.h	28;"	d
+IP_CT_TCP_FLAG_SACK_PERM	/usr/include/linux/netfilter/nf_conntrack_tcp.h	25;"	d
+IP_CT_TCP_FLAG_WINDOW_SCALE	/usr/include/linux/netfilter/nf_conntrack_tcp.h	22;"	d
+NFA_ALIGN	/usr/include/linux/netfilter/nfnetlink.h	53;"	d
+NFA_ALIGNTO	/usr/include/linux/netfilter/nfnetlink.h	52;"	d
+NFA_DATA	/usr/include/linux/netfilter/nfnetlink.h	60;"	d
+NFA_LENGTH	/usr/include/linux/netfilter/nfnetlink.h	58;"	d
+NFA_NEST	/usr/include/linux/netfilter/nfnetlink.h	62;"	d
+NFA_NEST_CANCEL	/usr/include/linux/netfilter/nfnetlink.h	69;"	d
+NFA_NEST_END	/usr/include/linux/netfilter/nfnetlink.h	66;"	d
+NFA_NEXT	/usr/include/linux/netfilter/nfnetlink.h	56;"	d
+NFA_OK	/usr/include/linux/netfilter/nfnetlink.h	54;"	d
+NFA_PAYLOAD	/usr/include/linux/netfilter/nfnetlink.h	61;"	d
+NFA_SPACE	/usr/include/linux/netfilter/nfnetlink.h	59;"	d
+NFA_TYPE	/usr/include/linux/netfilter/nfnetlink.h	50;"	d
+NFM_NFA	/usr/include/linux/netfilter/nfnetlink.h	84;"	d
+NFM_PAYLOAD	/usr/include/linux/netfilter/nfnetlink.h	86;"	d
+NFNETLINK_V0	/usr/include/linux/netfilter/nfnetlink.h	82;"	d
+NFNLGRP_CONNTRACK_DESTROY	/usr/include/linux/netfilter/nfnetlink.h	/^	NFNLGRP_CONNTRACK_DESTROY,$/;"	e	enum:nfnetlink_groups
+NFNLGRP_CONNTRACK_DESTROY	/usr/include/linux/netfilter/nfnetlink.h	21;"	d
+NFNLGRP_CONNTRACK_EXP_DESTROY	/usr/include/linux/netfilter/nfnetlink.h	/^	NFNLGRP_CONNTRACK_EXP_DESTROY,$/;"	e	enum:nfnetlink_groups
+NFNLGRP_CONNTRACK_EXP_DESTROY	/usr/include/linux/netfilter/nfnetlink.h	27;"	d
+NFNLGRP_CONNTRACK_EXP_NEW	/usr/include/linux/netfilter/nfnetlink.h	/^	NFNLGRP_CONNTRACK_EXP_NEW,$/;"	e	enum:nfnetlink_groups
+NFNLGRP_CONNTRACK_EXP_NEW	/usr/include/linux/netfilter/nfnetlink.h	23;"	d
+NFNLGRP_CONNTRACK_EXP_UPDATE	/usr/include/linux/netfilter/nfnetlink.h	/^	NFNLGRP_CONNTRACK_EXP_UPDATE,$/;"	e	enum:nfnetlink_groups
+NFNLGRP_CONNTRACK_EXP_UPDATE	/usr/include/linux/netfilter/nfnetlink.h	25;"	d
+NFNLGRP_CONNTRACK_NEW	/usr/include/linux/netfilter/nfnetlink.h	/^	NFNLGRP_CONNTRACK_NEW,$/;"	e	enum:nfnetlink_groups
+NFNLGRP_CONNTRACK_NEW	/usr/include/linux/netfilter/nfnetlink.h	17;"	d
+NFNLGRP_CONNTRACK_UPDATE	/usr/include/linux/netfilter/nfnetlink.h	/^	NFNLGRP_CONNTRACK_UPDATE,$/;"	e	enum:nfnetlink_groups
+NFNLGRP_CONNTRACK_UPDATE	/usr/include/linux/netfilter/nfnetlink.h	19;"	d
+NFNLGRP_MAX	/usr/include/linux/netfilter/nfnetlink.h	30;"	d
+NFNLGRP_NONE	/usr/include/linux/netfilter/nfnetlink.h	/^	NFNLGRP_NONE,$/;"	e	enum:nfnetlink_groups
+NFNLGRP_NONE	/usr/include/linux/netfilter/nfnetlink.h	15;"	d
+NFNL_MSG_TYPE	/usr/include/linux/netfilter/nfnetlink.h	93;"	d
+NFNL_NFA_NEST	/usr/include/linux/netfilter/nfnetlink.h	49;"	d
+NFNL_SUBSYS_COUNT	/usr/include/linux/netfilter/nfnetlink.h	102;"	d
+NFNL_SUBSYS_CTNETLINK	/usr/include/linux/netfilter/nfnetlink.h	98;"	d
+NFNL_SUBSYS_CTNETLINK_EXP	/usr/include/linux/netfilter/nfnetlink.h	99;"	d
+NFNL_SUBSYS_ID	/usr/include/linux/netfilter/nfnetlink.h	92;"	d
+NFNL_SUBSYS_NONE	/usr/include/linux/netfilter/nfnetlink.h	97;"	d
+NFNL_SUBSYS_QUEUE	/usr/include/linux/netfilter/nfnetlink.h	100;"	d
+NFNL_SUBSYS_ULOG	/usr/include/linux/netfilter/nfnetlink.h	101;"	d
+NFQA_CFG_CMD	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_CFG_CMD,			\/* nfqnl_msg_config_cmd *\/$/;"	e	enum:nfqnl_attr_config
+NFQA_CFG_MAX	/usr/include/linux/netfilter/nfnetlink_queue.h	87;"	d
+NFQA_CFG_PARAMS	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_CFG_PARAMS,		\/* nfqnl_msg_config_params *\/$/;"	e	enum:nfqnl_attr_config
+NFQA_CFG_UNSPEC	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_CFG_UNSPEC,$/;"	e	enum:nfqnl_attr_config
+NFQA_HWADDR	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_HWADDR,			\/* nfqnl_msg_packet_hw *\/$/;"	e	enum:nfqnl_attr_type
+NFQA_IFINDEX_INDEV	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_IFINDEX_INDEV,		\/* u_int32_t ifindex *\/$/;"	e	enum:nfqnl_attr_type
+NFQA_IFINDEX_OUTDEV	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_IFINDEX_OUTDEV,		\/* u_int32_t ifindex *\/$/;"	e	enum:nfqnl_attr_type
+NFQA_IFINDEX_PHYSINDEV	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_IFINDEX_PHYSINDEV,		\/* u_int32_t ifindex *\/$/;"	e	enum:nfqnl_attr_type
+NFQA_IFINDEX_PHYSOUTDEV	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_IFINDEX_PHYSOUTDEV,	\/* u_int32_t ifindex *\/$/;"	e	enum:nfqnl_attr_type
+NFQA_MARK	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_MARK,			\/* u_int32_t nfmark *\/$/;"	e	enum:nfqnl_attr_type
+NFQA_MAX	/usr/include/linux/netfilter/nfnetlink_queue.h	47;"	d
+NFQA_PACKET_HDR	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_PACKET_HDR,$/;"	e	enum:nfqnl_attr_type
+NFQA_PAYLOAD	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_PAYLOAD,			\/* opaque data payload *\/$/;"	e	enum:nfqnl_attr_type
+NFQA_TIMESTAMP	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_TIMESTAMP,			\/* nfqnl_msg_packet_timestamp *\/$/;"	e	enum:nfqnl_attr_type
+NFQA_UNSPEC	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_UNSPEC,$/;"	e	enum:nfqnl_attr_type
+NFQA_VERDICT_HDR	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQA_VERDICT_HDR,		\/* nfqnl_msg_verdict_hrd *\/$/;"	e	enum:nfqnl_attr_type
+NFQNL_CFG_CMD_BIND	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_CFG_CMD_BIND,$/;"	e	enum:nfqnl_msg_config_cmds
+NFQNL_CFG_CMD_NONE	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_CFG_CMD_NONE,$/;"	e	enum:nfqnl_msg_config_cmds
+NFQNL_CFG_CMD_PF_BIND	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_CFG_CMD_PF_BIND,$/;"	e	enum:nfqnl_msg_config_cmds
+NFQNL_CFG_CMD_PF_UNBIND	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_CFG_CMD_PF_UNBIND,$/;"	e	enum:nfqnl_msg_config_cmds
+NFQNL_CFG_CMD_UNBIND	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_CFG_CMD_UNBIND,$/;"	e	enum:nfqnl_msg_config_cmds
+NFQNL_COPY_META	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_COPY_META,$/;"	e	enum:nfqnl_config_mode
+NFQNL_COPY_NONE	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_COPY_NONE,$/;"	e	enum:nfqnl_config_mode
+NFQNL_COPY_PACKET	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_COPY_PACKET,$/;"	e	enum:nfqnl_config_mode
+NFQNL_MSG_CONFIG	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_MSG_CONFIG,		\/* connect to a particular queue *\/$/;"	e	enum:nfqnl_msg_types
+NFQNL_MSG_MAX	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_MSG_MAX$/;"	e	enum:nfqnl_msg_types
+NFQNL_MSG_PACKET	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_MSG_PACKET,		\/* packet from kernel to userspace *\/$/;"	e	enum:nfqnl_msg_types
+NFQNL_MSG_VERDICT	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	NFQNL_MSG_VERDICT,		\/* verdict from userspace to kernel *\/$/;"	e	enum:nfqnl_msg_types
+NFULA_CFG_CMD	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_CFG_CMD,			\/* nfulnl_msg_config_cmd *\/$/;"	e	enum:nfulnl_attr_config
+NFULA_CFG_FLAGS	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_CFG_FLAGS,		\/* u_int16_t *\/$/;"	e	enum:nfulnl_attr_config
+NFULA_CFG_MAX	/usr/include/linux/netfilter/nfnetlink_log.h	85;"	d
+NFULA_CFG_MODE	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_CFG_MODE,			\/* nfulnl_msg_config_mode *\/$/;"	e	enum:nfulnl_attr_config
+NFULA_CFG_NLBUFSIZ	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_CFG_NLBUFSIZ,		\/* u_int32_t buffer size *\/$/;"	e	enum:nfulnl_attr_config
+NFULA_CFG_QTHRESH	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_CFG_QTHRESH,		\/* u_int32_t *\/$/;"	e	enum:nfulnl_attr_config
+NFULA_CFG_TIMEOUT	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_CFG_TIMEOUT,		\/* u_int32_t in 1\/100 s *\/$/;"	e	enum:nfulnl_attr_config
+NFULA_CFG_UNSPEC	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_CFG_UNSPEC,$/;"	e	enum:nfulnl_attr_config
+NFULA_HWADDR	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_HWADDR,			\/* nfulnl_msg_packet_hw *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_IFINDEX_INDEV	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_IFINDEX_INDEV,		\/* u_int32_t ifindex *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_IFINDEX_OUTDEV	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_IFINDEX_OUTDEV,		\/* u_int32_t ifindex *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_IFINDEX_PHYSINDEV	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_IFINDEX_PHYSINDEV,	\/* u_int32_t ifindex *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_IFINDEX_PHYSOUTDEV	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_IFINDEX_PHYSOUTDEV,	\/* u_int32_t ifindex *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_MARK	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_MARK,			\/* u_int32_t nfmark *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_MAX	/usr/include/linux/netfilter/nfnetlink_log.h	55;"	d
+NFULA_PACKET_HDR	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_PACKET_HDR,$/;"	e	enum:nfulnl_attr_type
+NFULA_PAYLOAD	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_PAYLOAD,			\/* opaque data payload *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_PREFIX	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_PREFIX,			\/* string prefix *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_SEQ	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_SEQ,			\/* instance-local sequence number *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_SEQ_GLOBAL	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_SEQ_GLOBAL,		\/* global sequence number *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_TIMESTAMP	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_TIMESTAMP,		\/* nfulnl_msg_packet_timestamp *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_UID	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_UID,			\/* user id of socket *\/$/;"	e	enum:nfulnl_attr_type
+NFULA_UNSPEC	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULA_UNSPEC,$/;"	e	enum:nfulnl_attr_type
+NFULNL_CFG_CMD_BIND	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULNL_CFG_CMD_BIND,$/;"	e	enum:nfulnl_msg_config_cmds
+NFULNL_CFG_CMD_NONE	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULNL_CFG_CMD_NONE,$/;"	e	enum:nfulnl_msg_config_cmds
+NFULNL_CFG_CMD_PF_BIND	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULNL_CFG_CMD_PF_BIND,$/;"	e	enum:nfulnl_msg_config_cmds
+NFULNL_CFG_CMD_PF_UNBIND	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULNL_CFG_CMD_PF_UNBIND,$/;"	e	enum:nfulnl_msg_config_cmds
+NFULNL_CFG_CMD_UNBIND	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULNL_CFG_CMD_UNBIND,$/;"	e	enum:nfulnl_msg_config_cmds
+NFULNL_CFG_F_SEQ	/usr/include/linux/netfilter/nfnetlink_log.h	91;"	d
+NFULNL_CFG_F_SEQ_GLOBAL	/usr/include/linux/netfilter/nfnetlink_log.h	92;"	d
+NFULNL_COPY_META	/usr/include/linux/netfilter/nfnetlink_log.h	88;"	d
+NFULNL_COPY_NONE	/usr/include/linux/netfilter/nfnetlink_log.h	87;"	d
+NFULNL_COPY_PACKET	/usr/include/linux/netfilter/nfnetlink_log.h	89;"	d
+NFULNL_MSG_CONFIG	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULNL_MSG_CONFIG,		\/* connect to a particular queue *\/$/;"	e	enum:nfulnl_msg_types
+NFULNL_MSG_MAX	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULNL_MSG_MAX$/;"	e	enum:nfulnl_msg_types
+NFULNL_MSG_PACKET	/usr/include/linux/netfilter/nfnetlink_log.h	/^	NFULNL_MSG_PACKET,		\/* packet from kernel to userspace *\/$/;"	e	enum:nfulnl_msg_types
+NFULNL_PREFIXLEN	/usr/include/linux/netfilter/nfnetlink_log.h	35;"	d
+NF_NETLINK_CONNTRACK_DESTROY	/usr/include/linux/netfilter/nfnetlink.h	8;"	d
+NF_NETLINK_CONNTRACK_EXP_DESTROY	/usr/include/linux/netfilter/nfnetlink.h	11;"	d
+NF_NETLINK_CONNTRACK_EXP_NEW	/usr/include/linux/netfilter/nfnetlink.h	9;"	d
+NF_NETLINK_CONNTRACK_EXP_UPDATE	/usr/include/linux/netfilter/nfnetlink.h	10;"	d
+NF_NETLINK_CONNTRACK_NEW	/usr/include/linux/netfilter/nfnetlink.h	6;"	d
+NF_NETLINK_CONNTRACK_UPDATE	/usr/include/linux/netfilter/nfnetlink.h	7;"	d
+SCTP_CHUNKMAP_CLEAR	/usr/include/linux/netfilter/xt_sctp.h	47;"	d
+SCTP_CHUNKMAP_COPY	/usr/include/linux/netfilter/xt_sctp.h	73;"	d
+SCTP_CHUNKMAP_IS_ALL_SET	/usr/include/linux/netfilter/xt_sctp.h	93;"	d
+SCTP_CHUNKMAP_IS_CLEAR	/usr/include/linux/netfilter/xt_sctp.h	80;"	d
+SCTP_CHUNKMAP_IS_SET	/usr/include/linux/netfilter/xt_sctp.h	53;"	d
+SCTP_CHUNKMAP_RESET	/usr/include/linux/netfilter/xt_sctp.h	59;"	d
+SCTP_CHUNKMAP_SET	/usr/include/linux/netfilter/xt_sctp.h	41;"	d
+SCTP_CHUNKMAP_SET_ALL	/usr/include/linux/netfilter/xt_sctp.h	66;"	d
+SCTP_CHUNK_MATCH_ALL	/usr/include/linux/netfilter/xt_sctp.h	28;"	d
+SCTP_CHUNK_MATCH_ANY	/usr/include/linux/netfilter/xt_sctp.h	27;"	d
+SCTP_CHUNK_MATCH_ONLY	/usr/include/linux/netfilter/xt_sctp.h	29;"	d
+SCTP_CONNTRACK_CLOSED	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	SCTP_CONNTRACK_CLOSED,$/;"	e	enum:sctp_conntrack
+SCTP_CONNTRACK_COOKIE_ECHOED	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	SCTP_CONNTRACK_COOKIE_ECHOED,$/;"	e	enum:sctp_conntrack
+SCTP_CONNTRACK_COOKIE_WAIT	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	SCTP_CONNTRACK_COOKIE_WAIT,$/;"	e	enum:sctp_conntrack
+SCTP_CONNTRACK_ESTABLISHED	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	SCTP_CONNTRACK_ESTABLISHED,$/;"	e	enum:sctp_conntrack
+SCTP_CONNTRACK_MAX	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	SCTP_CONNTRACK_MAX$/;"	e	enum:sctp_conntrack
+SCTP_CONNTRACK_NONE	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	SCTP_CONNTRACK_NONE,$/;"	e	enum:sctp_conntrack
+SCTP_CONNTRACK_SHUTDOWN_ACK_SENT	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	SCTP_CONNTRACK_SHUTDOWN_ACK_SENT,$/;"	e	enum:sctp_conntrack
+SCTP_CONNTRACK_SHUTDOWN_RECD	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	SCTP_CONNTRACK_SHUTDOWN_RECD,$/;"	e	enum:sctp_conntrack
+SCTP_CONNTRACK_SHUTDOWN_SENT	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	SCTP_CONNTRACK_SHUTDOWN_SENT,$/;"	e	enum:sctp_conntrack
+SECMARK_MODE_SEL	/usr/include/linux/netfilter/xt_SECMARK.h	11;"	d
+SECMARK_SELCTX_MAX	/usr/include/linux/netfilter/xt_SECMARK.h	12;"	d
+SET_COUNTER	/usr/include/linux/netfilter/x_tables.h	115;"	d
+TCP_CONNTRACK_CLOSE	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_CLOSE,$/;"	e	enum:tcp_conntrack
+TCP_CONNTRACK_CLOSE_WAIT	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_CLOSE_WAIT,$/;"	e	enum:tcp_conntrack
+TCP_CONNTRACK_ESTABLISHED	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_ESTABLISHED,$/;"	e	enum:tcp_conntrack
+TCP_CONNTRACK_FIN_WAIT	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_FIN_WAIT,$/;"	e	enum:tcp_conntrack
+TCP_CONNTRACK_IGNORE	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_IGNORE$/;"	e	enum:tcp_conntrack
+TCP_CONNTRACK_LAST_ACK	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_LAST_ACK,$/;"	e	enum:tcp_conntrack
+TCP_CONNTRACK_LISTEN	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_LISTEN,$/;"	e	enum:tcp_conntrack
+TCP_CONNTRACK_MAX	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_MAX,$/;"	e	enum:tcp_conntrack
+TCP_CONNTRACK_NONE	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_NONE,$/;"	e	enum:tcp_conntrack
+TCP_CONNTRACK_SYN_RECV	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_SYN_RECV,$/;"	e	enum:tcp_conntrack
+TCP_CONNTRACK_SYN_SENT	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_SYN_SENT,$/;"	e	enum:tcp_conntrack
+TCP_CONNTRACK_TIME_WAIT	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^	TCP_CONNTRACK_TIME_WAIT,$/;"	e	enum:tcp_conntrack
+XT_ALIGN	/usr/include/linux/netfilter/x_tables.h	91;"	d
+XT_BASE_CTL	/usr/include/linux/netfilter/x_tables.h	103;"	d
+XT_CONNBYTES_AVGPKT	/usr/include/linux/netfilter/xt_connbytes.h	/^	XT_CONNBYTES_AVGPKT,$/;"	e	enum:xt_connbytes_what
+XT_CONNBYTES_BYTES	/usr/include/linux/netfilter/xt_connbytes.h	/^	XT_CONNBYTES_BYTES,$/;"	e	enum:xt_connbytes_what
+XT_CONNBYTES_DIR_BOTH	/usr/include/linux/netfilter/xt_connbytes.h	/^	XT_CONNBYTES_DIR_BOTH,$/;"	e	enum:xt_connbytes_direction
+XT_CONNBYTES_DIR_ORIGINAL	/usr/include/linux/netfilter/xt_connbytes.h	/^	XT_CONNBYTES_DIR_ORIGINAL,$/;"	e	enum:xt_connbytes_direction
+XT_CONNBYTES_DIR_REPLY	/usr/include/linux/netfilter/xt_connbytes.h	/^	XT_CONNBYTES_DIR_REPLY,$/;"	e	enum:xt_connbytes_direction
+XT_CONNBYTES_PKTS	/usr/include/linux/netfilter/xt_connbytes.h	/^	XT_CONNBYTES_PKTS,$/;"	e	enum:xt_connbytes_what
+XT_CONNMARK_RESTORE	/usr/include/linux/netfilter/xt_CONNMARK.h	/^	XT_CONNMARK_RESTORE$/;"	e	enum:__anon14
+XT_CONNMARK_SAVE	/usr/include/linux/netfilter/xt_CONNMARK.h	/^	XT_CONNMARK_SAVE,$/;"	e	enum:__anon14
+XT_CONNMARK_SET	/usr/include/linux/netfilter/xt_CONNMARK.h	/^	XT_CONNMARK_SET = 0,$/;"	e	enum:__anon14
+XT_CONNTRACK_EXPIRES	/usr/include/linux/netfilter/xt_conntrack.h	26;"	d
+XT_CONNTRACK_ORIGDST	/usr/include/linux/netfilter/xt_conntrack.h	22;"	d
+XT_CONNTRACK_ORIGSRC	/usr/include/linux/netfilter/xt_conntrack.h	21;"	d
+XT_CONNTRACK_PROTO	/usr/include/linux/netfilter/xt_conntrack.h	20;"	d
+XT_CONNTRACK_REPLDST	/usr/include/linux/netfilter/xt_conntrack.h	24;"	d
+XT_CONNTRACK_REPLSRC	/usr/include/linux/netfilter/xt_conntrack.h	23;"	d
+XT_CONNTRACK_STATE	/usr/include/linux/netfilter/xt_conntrack.h	19;"	d
+XT_CONNTRACK_STATE_BIT	/usr/include/linux/netfilter/xt_conntrack.h	11;"	d
+XT_CONNTRACK_STATE_DNAT	/usr/include/linux/netfilter/xt_conntrack.h	15;"	d
+XT_CONNTRACK_STATE_INVALID	/usr/include/linux/netfilter/xt_conntrack.h	12;"	d
+XT_CONNTRACK_STATE_SNAT	/usr/include/linux/netfilter/xt_conntrack.h	14;"	d
+XT_CONNTRACK_STATE_UNTRACKED	/usr/include/linux/netfilter/xt_conntrack.h	16;"	d
+XT_CONNTRACK_STATUS	/usr/include/linux/netfilter/xt_conntrack.h	25;"	d
+XT_CONTINUE	/usr/include/linux/netfilter/x_tables.h	73;"	d
+XT_DCCP_DEST_PORTS	/usr/include/linux/netfilter/xt_dccp.h	5;"	d
+XT_DCCP_OPTION	/usr/include/linux/netfilter/xt_dccp.h	7;"	d
+XT_DCCP_SRC_PORTS	/usr/include/linux/netfilter/xt_dccp.h	4;"	d
+XT_DCCP_TYPE	/usr/include/linux/netfilter/xt_dccp.h	6;"	d
+XT_DCCP_VALID_FLAGS	/usr/include/linux/netfilter/xt_dccp.h	9;"	d
+XT_ERROR_TARGET	/usr/include/linux/netfilter/x_tables.h	97;"	d
+XT_ESP_INV_MASK	/usr/include/linux/netfilter/xt_esp.h	12;"	d
+XT_ESP_INV_SPI	/usr/include/linux/netfilter/xt_esp.h	11;"	d
+XT_FUNCTION_MAXNAMELEN	/usr/include/linux/netfilter/x_tables.h	4;"	d
+XT_INV_PROTO	/usr/include/linux/netfilter/x_tables.h	135;"	d
+XT_LIMIT_SCALE	/usr/include/linux/netfilter/xt_limit.h	5;"	d
+XT_MARK_AND	/usr/include/linux/netfilter/xt_MARK.h	/^	XT_MARK_AND,$/;"	e	enum:__anon5
+XT_MARK_OR	/usr/include/linux/netfilter/xt_MARK.h	/^	XT_MARK_OR,$/;"	e	enum:__anon5
+XT_MARK_SET	/usr/include/linux/netfilter/xt_MARK.h	/^	XT_MARK_SET=0,$/;"	e	enum:__anon5
+XT_MAX_COMMENT_LEN	/usr/include/linux/netfilter/xt_comment.h	4;"	d
+XT_MULTIPORT_DESTINATION	/usr/include/linux/netfilter/xt_multiport.h	/^	XT_MULTIPORT_DESTINATION,$/;"	e	enum:xt_multiport_flags
+XT_MULTIPORT_EITHER	/usr/include/linux/netfilter/xt_multiport.h	/^	XT_MULTIPORT_EITHER$/;"	e	enum:xt_multiport_flags
+XT_MULTIPORT_SOURCE	/usr/include/linux/netfilter/xt_multiport.h	/^	XT_MULTIPORT_SOURCE,$/;"	e	enum:xt_multiport_flags
+XT_MULTI_PORTS	/usr/include/linux/netfilter/xt_multiport.h	11;"	d
+XT_NUM_SCTP_FLAGS	/usr/include/linux/netfilter/xt_sctp.h	19;"	d
+XT_PHYSDEV_OP_BRIDGED	/usr/include/linux/netfilter/xt_physdev.h	7;"	d
+XT_PHYSDEV_OP_IN	/usr/include/linux/netfilter/xt_physdev.h	5;"	d
+XT_PHYSDEV_OP_ISIN	/usr/include/linux/netfilter/xt_physdev.h	8;"	d
+XT_PHYSDEV_OP_ISOUT	/usr/include/linux/netfilter/xt_physdev.h	9;"	d
+XT_PHYSDEV_OP_MASK	/usr/include/linux/netfilter/xt_physdev.h	10;"	d
+XT_PHYSDEV_OP_OUT	/usr/include/linux/netfilter/xt_physdev.h	6;"	d
+XT_POLICY_MATCH_IN	/usr/include/linux/netfilter/xt_policy.h	/^	XT_POLICY_MATCH_IN	= 0x1,$/;"	e	enum:xt_policy_flags
+XT_POLICY_MATCH_NONE	/usr/include/linux/netfilter/xt_policy.h	/^	XT_POLICY_MATCH_NONE	= 0x4,$/;"	e	enum:xt_policy_flags
+XT_POLICY_MATCH_OUT	/usr/include/linux/netfilter/xt_policy.h	/^	XT_POLICY_MATCH_OUT	= 0x2,$/;"	e	enum:xt_policy_flags
+XT_POLICY_MATCH_STRICT	/usr/include/linux/netfilter/xt_policy.h	/^	XT_POLICY_MATCH_STRICT	= 0x8,$/;"	e	enum:xt_policy_flags
+XT_POLICY_MAX_ELEM	/usr/include/linux/netfilter/xt_policy.h	4;"	d
+XT_POLICY_MODE_TRANSPORT	/usr/include/linux/netfilter/xt_policy.h	/^	XT_POLICY_MODE_TRANSPORT,$/;"	e	enum:xt_policy_modes
+XT_POLICY_MODE_TUNNEL	/usr/include/linux/netfilter/xt_policy.h	/^	XT_POLICY_MODE_TUNNEL$/;"	e	enum:xt_policy_modes
+XT_RETURN	/usr/include/linux/netfilter/x_tables.h	76;"	d
+XT_SCTP_CHUNK_TYPES	/usr/include/linux/netfilter/xt_sctp.h	6;"	d
+XT_SCTP_DEST_PORTS	/usr/include/linux/netfilter/xt_sctp.h	5;"	d
+XT_SCTP_SRC_PORTS	/usr/include/linux/netfilter/xt_sctp.h	4;"	d
+XT_SCTP_VALID_FLAGS	/usr/include/linux/netfilter/xt_sctp.h	8;"	d
+XT_SO_GET_ENTRIES	/usr/include/linux/netfilter/x_tables.h	110;"	d
+XT_SO_GET_INFO	/usr/include/linux/netfilter/x_tables.h	109;"	d
+XT_SO_GET_MAX	/usr/include/linux/netfilter/x_tables.h	113;"	d
+XT_SO_GET_REVISION_MATCH	/usr/include/linux/netfilter/x_tables.h	111;"	d
+XT_SO_GET_REVISION_TARGET	/usr/include/linux/netfilter/x_tables.h	112;"	d
+XT_SO_SET_ADD_COUNTERS	/usr/include/linux/netfilter/x_tables.h	106;"	d
+XT_SO_SET_MAX	/usr/include/linux/netfilter/x_tables.h	107;"	d
+XT_SO_SET_REPLACE	/usr/include/linux/netfilter/x_tables.h	105;"	d
+XT_STANDARD_TARGET	/usr/include/linux/netfilter/x_tables.h	95;"	d
+XT_STATE_BIT	/usr/include/linux/netfilter/xt_state.h	4;"	d
+XT_STATE_INVALID	/usr/include/linux/netfilter/xt_state.h	5;"	d
+XT_STATE_UNTRACKED	/usr/include/linux/netfilter/xt_state.h	7;"	d
+XT_STRING_MAX_ALGO_NAME_SIZE	/usr/include/linux/netfilter/xt_string.h	5;"	d
+XT_STRING_MAX_PATTERN_SIZE	/usr/include/linux/netfilter/xt_string.h	4;"	d
+XT_TABLE_MAXNAMELEN	/usr/include/linux/netfilter/x_tables.h	5;"	d
+XT_TCP_INV_DSTPT	/usr/include/linux/netfilter/xt_tcpudp.h	17;"	d
+XT_TCP_INV_FLAGS	/usr/include/linux/netfilter/xt_tcpudp.h	18;"	d
+XT_TCP_INV_MASK	/usr/include/linux/netfilter/xt_tcpudp.h	20;"	d
+XT_TCP_INV_OPTION	/usr/include/linux/netfilter/xt_tcpudp.h	19;"	d
+XT_TCP_INV_SRCPT	/usr/include/linux/netfilter/xt_tcpudp.h	16;"	d
+XT_UDP_INV_DSTPT	/usr/include/linux/netfilter/xt_tcpudp.h	32;"	d
+XT_UDP_INV_MASK	/usr/include/linux/netfilter/xt_tcpudp.h	33;"	d
+XT_UDP_INV_SRCPT	/usr/include/linux/netfilter/xt_tcpudp.h	31;"	d
+_IPCONNTRACK_NETLINK_H	/usr/include/linux/netfilter/nfnetlink_conntrack.h	2;"	d
+_NFNETLINK_H	/usr/include/linux/netfilter/nfnetlink.h	2;"	d
+_NFNETLINK_LOG_H	/usr/include/linux/netfilter/nfnetlink_log.h	2;"	d
+_NFNETLINK_QUEUE_H	/usr/include/linux/netfilter/nfnetlink_queue.h	2;"	d
+_NF_CONNTRACK_COMMON_H	/usr/include/linux/netfilter/nf_conntrack_common.h	2;"	d
+_NF_CONNTRACK_FTP_H	/usr/include/linux/netfilter/nf_conntrack_ftp.h	2;"	d
+_NF_CONNTRACK_SCTP_H	/usr/include/linux/netfilter/nf_conntrack_sctp.h	2;"	d
+_NF_CONNTRACK_TCP_H	/usr/include/linux/netfilter/nf_conntrack_tcp.h	2;"	d
+_NF_CONNTRACK_TUPLE_COMMON_H	/usr/include/linux/netfilter/nf_conntrack_tuple_common.h	2;"	d
+_XT_CLASSIFY_H	/usr/include/linux/netfilter/xt_CLASSIFY.h	2;"	d
+_XT_COMMENT_H	/usr/include/linux/netfilter/xt_comment.h	2;"	d
+_XT_CONNBYTES_H	/usr/include/linux/netfilter/xt_connbytes.h	2;"	d
+_XT_CONNMARK_H	/usr/include/linux/netfilter/xt_connmark.h	2;"	d
+_XT_CONNMARK_H_target	/usr/include/linux/netfilter/xt_CONNMARK.h	2;"	d
+_XT_CONNSECMARK_H_target	/usr/include/linux/netfilter/xt_CONNSECMARK.h	2;"	d
+_XT_CONNTRACK_H	/usr/include/linux/netfilter/xt_conntrack.h	6;"	d
+_XT_DCCP_H_	/usr/include/linux/netfilter/xt_dccp.h	2;"	d
+_XT_ESP_H	/usr/include/linux/netfilter/xt_esp.h	2;"	d
+_XT_HELPER_H	/usr/include/linux/netfilter/xt_helper.h	2;"	d
+_XT_LENGTH_H	/usr/include/linux/netfilter/xt_length.h	2;"	d
+_XT_MAC_H	/usr/include/linux/netfilter/xt_mac.h	2;"	d
+_XT_MARK_H	/usr/include/linux/netfilter/xt_mark.h	2;"	d
+_XT_MARK_H_target	/usr/include/linux/netfilter/xt_MARK.h	2;"	d
+_XT_MULTIPORT_H	/usr/include/linux/netfilter/xt_multiport.h	2;"	d
+_XT_NFQ_TARGET_H	/usr/include/linux/netfilter/xt_NFQUEUE.h	9;"	d
+_XT_PHYSDEV_H	/usr/include/linux/netfilter/xt_physdev.h	2;"	d
+_XT_PKTTYPE_H	/usr/include/linux/netfilter/xt_pkttype.h	2;"	d
+_XT_POLICY_H	/usr/include/linux/netfilter/xt_policy.h	2;"	d
+_XT_RATE_H	/usr/include/linux/netfilter/xt_limit.h	2;"	d
+_XT_REALM_H	/usr/include/linux/netfilter/xt_realm.h	2;"	d
+_XT_SCTP_H_	/usr/include/linux/netfilter/xt_sctp.h	2;"	d
+_XT_SECMARK_H_target	/usr/include/linux/netfilter/xt_SECMARK.h	2;"	d
+_XT_STATE_H	/usr/include/linux/netfilter/xt_state.h	2;"	d
+_XT_STRING_H	/usr/include/linux/netfilter/xt_string.h	2;"	d
+_XT_TCPMSS_MATCH_H	/usr/include/linux/netfilter/xt_tcpmss.h	2;"	d
+_XT_TCPUDP_H	/usr/include/linux/netfilter/xt_tcpudp.h	2;"	d
+_X_TABLES_H	/usr/include/linux/netfilter/x_tables.h	2;"	d
+__CTA_COUNTERS_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	__CTA_COUNTERS_MAX$/;"	e	enum:ctattr_counters
+__CTA_EXPECT_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	__CTA_EXPECT_MAX$/;"	e	enum:ctattr_expect
+__CTA_HELP_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	__CTA_HELP_MAX$/;"	e	enum:ctattr_help
+__CTA_IP_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	__CTA_IP_MAX$/;"	e	enum:ctattr_ip
+__CTA_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	__CTA_MAX$/;"	e	enum:ctattr_type
+__CTA_NAT_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	__CTA_NAT_MAX$/;"	e	enum:ctattr_nat
+__CTA_PROTOINFO_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	__CTA_PROTOINFO_MAX$/;"	e	enum:ctattr_protoinfo
+__CTA_PROTOINFO_TCP_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	__CTA_PROTOINFO_TCP_MAX$/;"	e	enum:ctattr_protoinfo_tcp
+__CTA_PROTONAT_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	__CTA_PROTONAT_MAX$/;"	e	enum:ctattr_protonat
+__CTA_PROTO_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	__CTA_PROTO_MAX$/;"	e	enum:ctattr_l4proto
+__CTA_TUPLE_MAX	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^	__CTA_TUPLE_MAX$/;"	e	enum:ctattr_tuple
+__NFNLGRP_MAX	/usr/include/linux/netfilter/nfnetlink.h	/^	__NFNLGRP_MAX,$/;"	e	enum:nfnetlink_groups
+__NFQA_CFG_MAX	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	__NFQA_CFG_MAX$/;"	e	enum:nfqnl_attr_config
+__NFQA_MAX	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	__NFQA_MAX$/;"	e	enum:nfqnl_attr_type
+__NFULA_CFG_MAX	/usr/include/linux/netfilter/nfnetlink_log.h	/^	__NFULA_CFG_MAX$/;"	e	enum:nfulnl_attr_config
+__NFULA_MAX	/usr/include/linux/netfilter/nfnetlink_log.h	/^	__NFULA_MAX$/;"	e	enum:nfulnl_attr_type
+_pad	/usr/include/linux/netfilter/nfnetlink_log.h	/^	u_int16_t	_pad;$/;"	m	struct:nfulnl_msg_packet_hw
+_pad	/usr/include/linux/netfilter/nfnetlink_log.h	/^	u_int8_t	_pad;$/;"	m	struct:nfulnl_msg_config_mode
+_pad	/usr/include/linux/netfilter/nfnetlink_log.h	/^	u_int8_t	_pad;$/;"	m	struct:nfulnl_msg_packet_hdr
+_pad	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int16_t	_pad;$/;"	m	struct:nfqnl_msg_packet_hw
+_pad	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int8_t	_pad;$/;"	m	struct:nfqnl_msg_config_cmd
+_xt_align	/usr/include/linux/netfilter/x_tables.h	/^struct _xt_align$/;"	s
+a4	/usr/include/linux/netfilter/xt_policy.h	/^	struct in_addr	a4;$/;"	m	union:xt_policy_addr	typeref:struct:xt_policy_addr::in_addr
+a6	/usr/include/linux/netfilter/xt_policy.h	/^	struct in6_addr	a6;$/;"	m	union:xt_policy_addr	typeref:struct:xt_policy_addr::in6_addr
+algo	/usr/include/linux/netfilter/xt_string.h	/^	char	  algo[XT_STRING_MAX_ALGO_NAME_SIZE];$/;"	m	struct:xt_string_info
+all	/usr/include/linux/netfilter/xt_conntrack.h	/^			__u16 all;$/;"	m	union:ip_conntrack_old_tuple::__anon1::__anon2
+all	/usr/include/linux/netfilter/xt_conntrack.h	/^			__u16 all;$/;"	m	union:ip_conntrack_old_tuple::__anon3::__anon4
+avg	/usr/include/linux/netfilter/xt_limit.h	/^	u_int32_t avg;    \/* Average secs between packets * scale *\/$/;"	m	struct:xt_rateinfo
+bcnt	/usr/include/linux/netfilter/x_tables.h	/^	u_int64_t pcnt, bcnt;			\/* Packet and byte counters *\/$/;"	m	struct:xt_counters
+bitmask	/usr/include/linux/netfilter/xt_physdev.h	/^	u_int8_t bitmask;$/;"	m	struct:xt_physdev_info
+burst	/usr/include/linux/netfilter/xt_limit.h	/^	u_int32_t burst;  \/* Period multiplier for upper limit. *\/$/;"	m	struct:xt_rateinfo
+bytes	/usr/include/linux/netfilter/xt_sctp.h	39;"	d
+chunk_match_type	/usr/include/linux/netfilter/xt_sctp.h	/^	u_int32_t chunk_match_type;$/;"	m	struct:xt_sctp_info
+chunkmap	/usr/include/linux/netfilter/xt_sctp.h	/^	u_int32_t chunkmap[256 \/ sizeof (u_int32_t)];  \/* Bit mask of chunks to be matched according to RFC 2960 *\/$/;"	m	struct:xt_sctp_info
+chunktype	/usr/include/linux/netfilter/xt_sctp.h	/^	u_int8_t chunktype;$/;"	m	struct:xt_sctp_flag_info
+cntl_msg_types	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum cntl_msg_types {$/;"	g
+command	/usr/include/linux/netfilter/nfnetlink_log.h	/^	u_int8_t	command;	\/* nfulnl_msg_config_cmds *\/$/;"	m	struct:nfulnl_msg_config_cmd
+command	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int8_t	command;	\/* nfqnl_msg_config_cmds *\/$/;"	m	struct:nfqnl_msg_config_cmd
+comment	/usr/include/linux/netfilter/xt_comment.h	/^	unsigned char comment[XT_MAX_COMMENT_LEN];$/;"	m	struct:xt_comment_info
+config	/usr/include/linux/netfilter/xt_string.h	/^	struct ts_config __attribute__((aligned(8))) *config;$/;"	m	struct:xt_string_info	typeref:struct:xt_string_info::ts_config
+copy_mode	/usr/include/linux/netfilter/nfnetlink_log.h	/^	u_int8_t	copy_mode;$/;"	m	struct:nfulnl_msg_config_mode
+copy_mode	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int8_t	copy_mode;	\/* enum nfqnl_config_mode *\/$/;"	m	struct:nfqnl_msg_config_params
+copy_range	/usr/include/linux/netfilter/nfnetlink_log.h	/^	u_int32_t	copy_range;$/;"	m	struct:nfulnl_msg_config_mode
+copy_range	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int32_t	copy_range;$/;"	m	struct:nfqnl_msg_config_params
+cost	/usr/include/linux/netfilter/xt_limit.h	/^	u_int32_t credit_cap, cost;$/;"	m	struct:xt_rateinfo
+count	/usr/include/linux/netfilter/xt_connbytes.h	/^	} count;$/;"	m	struct:xt_connbytes_info	typeref:struct:xt_connbytes_info::__anon15
+count	/usr/include/linux/netfilter/xt_multiport.h	/^	u_int8_t count;				\/* Number of ports *\/$/;"	m	struct:xt_multiport
+count	/usr/include/linux/netfilter/xt_multiport.h	/^	u_int8_t count;				\/* Number of ports *\/$/;"	m	struct:xt_multiport_v1
+counters	/usr/include/linux/netfilter/x_tables.h	/^	struct xt_counters counters[0];$/;"	m	struct:xt_counters_info	typeref:struct:xt_counters_info::xt_counters
+credit	/usr/include/linux/netfilter/xt_limit.h	/^	u_int32_t credit;$/;"	m	struct:xt_rateinfo
+credit_cap	/usr/include/linux/netfilter/xt_limit.h	/^	u_int32_t credit_cap, cost;$/;"	m	struct:xt_rateinfo
+ctattr_counters	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctattr_counters {$/;"	g
+ctattr_expect	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctattr_expect {$/;"	g
+ctattr_help	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctattr_help {$/;"	g
+ctattr_ip	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctattr_ip {$/;"	g
+ctattr_l4proto	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctattr_l4proto {$/;"	g
+ctattr_nat	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctattr_nat {$/;"	g
+ctattr_protoinfo	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctattr_protoinfo {$/;"	g
+ctattr_protoinfo_tcp	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctattr_protoinfo_tcp {$/;"	g
+ctattr_protonat	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctattr_protonat {$/;"	g
+ctattr_tuple	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctattr_tuple {$/;"	g
+ctattr_type	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctattr_type {$/;"	g
+ctnl_exp_msg_types	/usr/include/linux/netfilter/nfnetlink_conntrack.h	/^enum ctnl_exp_msg_types {$/;"	g
+daddr	/usr/include/linux/netfilter/xt_policy.h	/^			daddr:1,$/;"	m	struct:xt_policy_spec
+daddr	/usr/include/linux/netfilter/xt_policy.h	/^	union xt_policy_addr	daddr;$/;"	m	struct:xt_policy_elem	typeref:union:xt_policy_elem::xt_policy_addr
+data	/usr/include/linux/netfilter/x_tables.h	/^	unsigned char data[0];$/;"	m	struct:xt_entry_match
+data	/usr/include/linux/netfilter/x_tables.h	/^	unsigned char data[0];$/;"	m	struct:xt_entry_target
+dipmsk	/usr/include/linux/netfilter/xt_conntrack.h	/^	struct in_addr sipmsk[IP_CT_DIR_MAX], dipmsk[IP_CT_DIR_MAX];$/;"	m	struct:xt_conntrack_info	typeref:struct:xt_conntrack_info::
+direction	/usr/include/linux/netfilter/xt_connbytes.h	/^	u_int8_t direction;	\/* ipt_connbytes_direction *\/$/;"	m	struct:xt_connbytes_info
+dmask	/usr/include/linux/netfilter/xt_policy.h	/^	union xt_policy_addr	dmask;$/;"	m	struct:xt_policy_elem	typeref:union:xt_policy_elem::xt_policy_addr
+dpts	/usr/include/linux/netfilter/xt_dccp.h	/^	u_int16_t dpts[2];  \/* Min, Max *\/$/;"	m	struct:xt_dccp_info
+dpts	/usr/include/linux/netfilter/xt_sctp.h	/^	u_int16_t dpts[2];  \/* Min, Max *\/$/;"	m	struct:xt_sctp_info
+dpts	/usr/include/linux/netfilter/xt_tcpudp.h	/^	u_int16_t dpts[2];			\/* Destination port range. *\/$/;"	m	struct:xt_tcp
+dpts	/usr/include/linux/netfilter/xt_tcpudp.h	/^	u_int16_t dpts[2];			\/* Destination port range. *\/$/;"	m	struct:xt_udp
+dst	/usr/include/linux/netfilter/xt_conntrack.h	/^	} dst;$/;"	m	struct:ip_conntrack_old_tuple	typeref:struct:ip_conntrack_old_tuple::__anon3
+expires_max	/usr/include/linux/netfilter/xt_conntrack.h	/^	unsigned long expires_min, expires_max;$/;"	m	struct:xt_conntrack_info
+expires_min	/usr/include/linux/netfilter/xt_conntrack.h	/^	unsigned long expires_min, expires_max;$/;"	m	struct:xt_conntrack_info
+flag	/usr/include/linux/netfilter/xt_sctp.h	/^	u_int8_t flag;$/;"	m	struct:xt_sctp_flag_info
+flag_count	/usr/include/linux/netfilter/xt_sctp.h	/^	int flag_count;$/;"	m	struct:xt_sctp_info
+flag_info	/usr/include/linux/netfilter/xt_sctp.h	/^	struct xt_sctp_flag_info flag_info[XT_NUM_SCTP_FLAGS];$/;"	m	struct:xt_sctp_info	typeref:struct:xt_sctp_info::xt_sctp_flag_info
+flag_mask	/usr/include/linux/netfilter/xt_sctp.h	/^	u_int8_t flag_mask;$/;"	m	struct:xt_sctp_flag_info
+flags	/usr/include/linux/netfilter/xt_conntrack.h	/^	u_int8_t flags;$/;"	m	struct:xt_conntrack_info
+flags	/usr/include/linux/netfilter/xt_dccp.h	/^	u_int16_t flags;$/;"	m	struct:xt_dccp_info
+flags	/usr/include/linux/netfilter/xt_multiport.h	/^	u_int8_t flags;				\/* Type of comparison *\/$/;"	m	struct:xt_multiport
+flags	/usr/include/linux/netfilter/xt_multiport.h	/^	u_int8_t flags;				\/* Type of comparison *\/$/;"	m	struct:xt_multiport_v1
+flags	/usr/include/linux/netfilter/xt_policy.h	/^	u_int16_t flags;$/;"	m	struct:xt_policy_info
+flags	/usr/include/linux/netfilter/xt_sctp.h	/^	u_int32_t flags;$/;"	m	struct:xt_sctp_info
+flg_cmp	/usr/include/linux/netfilter/xt_tcpudp.h	/^	u_int8_t flg_cmp;			\/* TCP flags compare byte *\/$/;"	m	struct:xt_tcp
+flg_mask	/usr/include/linux/netfilter/xt_tcpudp.h	/^	u_int8_t flg_mask;			\/* TCP flags mask byte *\/$/;"	m	struct:xt_tcp
+from	/usr/include/linux/netfilter/xt_connbytes.h	/^		aligned_u64 from;	\/* count to be matched *\/$/;"	m	struct:xt_connbytes_info::__anon15
+from_offset	/usr/include/linux/netfilter/xt_string.h	/^	u_int16_t from_offset;$/;"	m	struct:xt_string_info
+hook	/usr/include/linux/netfilter/nfnetlink_log.h	/^	u_int8_t	hook;		\/* netfilter hook *\/$/;"	m	struct:nfulnl_msg_packet_hdr
+hook	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int8_t	hook;		\/* netfilter hook *\/$/;"	m	struct:nfqnl_msg_packet_hdr
+hw_addr	/usr/include/linux/netfilter/nfnetlink_log.h	/^	u_int8_t	hw_addr[8];$/;"	m	struct:nfulnl_msg_packet_hw
+hw_addr	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int8_t	hw_addr[8];$/;"	m	struct:nfqnl_msg_packet_hw
+hw_addrlen	/usr/include/linux/netfilter/nfnetlink_log.h	/^	u_int16_t	hw_addrlen;$/;"	m	struct:nfulnl_msg_packet_hw
+hw_addrlen	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int16_t	hw_addrlen;$/;"	m	struct:nfqnl_msg_packet_hw
+hw_protocol	/usr/include/linux/netfilter/nfnetlink_log.h	/^	u_int16_t	hw_protocol;	\/* hw protocol (network order) *\/$/;"	m	struct:nfulnl_msg_packet_hdr
+hw_protocol	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int16_t	hw_protocol;	\/* hw protocol (network order) *\/$/;"	m	struct:nfqnl_msg_packet_hdr
+id	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int32_t id;$/;"	m	struct:nfqnl_msg_verdict_hdr
+id	/usr/include/linux/netfilter/xt_realm.h	/^	u_int32_t id;$/;"	m	struct:xt_realm_info
+in_mask	/usr/include/linux/netfilter/xt_physdev.h	/^	char in_mask[IFNAMSIZ];$/;"	m	struct:xt_physdev_info
+invert	/usr/include/linux/netfilter/xt_connmark.h	/^	u_int8_t invert;$/;"	m	struct:xt_connmark_info
+invert	/usr/include/linux/netfilter/xt_helper.h	/^	int invert;$/;"	m	struct:xt_helper_info
+invert	/usr/include/linux/netfilter/xt_length.h	/^    u_int8_t	invert;$/;"	m	struct:xt_length_info
+invert	/usr/include/linux/netfilter/xt_mac.h	/^    int invert;$/;"	m	struct:xt_mac_info
+invert	/usr/include/linux/netfilter/xt_mark.h	/^    u_int8_t invert;$/;"	m	struct:xt_mark_info
+invert	/usr/include/linux/netfilter/xt_multiport.h	/^	u_int8_t invert;			\/* Invert flag *\/$/;"	m	struct:xt_multiport_v1
+invert	/usr/include/linux/netfilter/xt_physdev.h	/^	u_int8_t invert;$/;"	m	struct:xt_physdev_info
+invert	/usr/include/linux/netfilter/xt_pkttype.h	/^	int	invert;$/;"	m	struct:xt_pkttype_info
+invert	/usr/include/linux/netfilter/xt_policy.h	/^	struct xt_policy_spec	invert;$/;"	m	struct:xt_policy_elem	typeref:struct:xt_policy_elem::xt_policy_spec
+invert	/usr/include/linux/netfilter/xt_realm.h	/^	u_int8_t invert;$/;"	m	struct:xt_realm_info
+invert	/usr/include/linux/netfilter/xt_string.h	/^	u_int8_t  invert;$/;"	m	struct:xt_string_info
+invert	/usr/include/linux/netfilter/xt_tcpmss.h	/^    u_int8_t invert;$/;"	m	struct:xt_tcpmss_match_info
+invflags	/usr/include/linux/netfilter/xt_conntrack.h	/^	u_int8_t invflags;$/;"	m	struct:xt_conntrack_info
+invflags	/usr/include/linux/netfilter/xt_dccp.h	/^	u_int16_t invflags;$/;"	m	struct:xt_dccp_info
+invflags	/usr/include/linux/netfilter/xt_esp.h	/^	u_int8_t  invflags;	\/* Inverse flags *\/$/;"	m	struct:xt_esp
+invflags	/usr/include/linux/netfilter/xt_sctp.h	/^	u_int32_t invflags;$/;"	m	struct:xt_sctp_info
+invflags	/usr/include/linux/netfilter/xt_tcpudp.h	/^	u_int8_t invflags;			\/* Inverse flags *\/$/;"	m	struct:xt_tcp
+invflags	/usr/include/linux/netfilter/xt_tcpudp.h	/^	u_int8_t invflags;			\/* Inverse flags *\/$/;"	m	struct:xt_udp
+ip	/usr/include/linux/netfilter/xt_conntrack.h	/^		__u32 ip;$/;"	m	struct:ip_conntrack_old_tuple::__anon1
+ip	/usr/include/linux/netfilter/xt_conntrack.h	/^		__u32 ip;$/;"	m	struct:ip_conntrack_old_tuple::__anon3
+ip_conntrack_dir	/usr/include/linux/netfilter/nf_conntrack_tuple_common.h	/^enum ip_conntrack_dir$/;"	g
+ip_conntrack_events	/usr/include/linux/netfilter/nf_conntrack_common.h	/^enum ip_conntrack_events$/;"	g
+ip_conntrack_expect_events	/usr/include/linux/netfilter/nf_conntrack_common.h	/^enum ip_conntrack_expect_events {$/;"	g
+ip_conntrack_info	/usr/include/linux/netfilter/nf_conntrack_common.h	/^enum ip_conntrack_info$/;"	g
+ip_conntrack_old_tuple	/usr/include/linux/netfilter/xt_conntrack.h	/^struct ip_conntrack_old_tuple$/;"	s
+ip_conntrack_status	/usr/include/linux/netfilter/nf_conntrack_common.h	/^enum ip_conntrack_status {$/;"	g
+ip_ct_ftp_type	/usr/include/linux/netfilter/nf_conntrack_ftp.h	/^enum ip_ct_ftp_type$/;"	g
+ip_ct_sctp	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^struct ip_ct_sctp$/;"	s
+kernel	/usr/include/linux/netfilter/x_tables.h	/^		} kernel;$/;"	m	union:xt_entry_match::__anon8	typeref:struct:xt_entry_match::__anon8::__anon10
+kernel	/usr/include/linux/netfilter/x_tables.h	/^		} kernel;$/;"	m	union:xt_entry_target::__anon11	typeref:struct:xt_entry_target::__anon11::__anon13
+len	/usr/include/linux/netfilter/xt_policy.h	/^	u_int16_t len;$/;"	m	struct:xt_policy_info
+mark	/usr/include/linux/netfilter/xt_CONNMARK.h	/^	unsigned long mark;$/;"	m	struct:xt_connmark_target_info
+mark	/usr/include/linux/netfilter/xt_MARK.h	/^	unsigned long mark;$/;"	m	struct:xt_mark_target_info
+mark	/usr/include/linux/netfilter/xt_MARK.h	/^	unsigned long mark;$/;"	m	struct:xt_mark_target_info_v1
+mark	/usr/include/linux/netfilter/xt_connmark.h	/^	unsigned long mark, mask;$/;"	m	struct:xt_connmark_info
+mark	/usr/include/linux/netfilter/xt_mark.h	/^    unsigned long mark, mask;$/;"	m	struct:xt_mark_info
+mask	/usr/include/linux/netfilter/xt_CONNMARK.h	/^	unsigned long mask;$/;"	m	struct:xt_connmark_target_info
+mask	/usr/include/linux/netfilter/xt_connmark.h	/^	unsigned long mark, mask;$/;"	m	struct:xt_connmark_info
+mask	/usr/include/linux/netfilter/xt_mark.h	/^    unsigned long mark, mask;$/;"	m	struct:xt_mark_info
+mask	/usr/include/linux/netfilter/xt_realm.h	/^	u_int32_t mask;$/;"	m	struct:xt_realm_info
+master	/usr/include/linux/netfilter/xt_limit.h	/^	struct xt_rateinfo *master;$/;"	m	struct:xt_rateinfo	typeref:struct:xt_rateinfo::xt_rateinfo
+match	/usr/include/linux/netfilter/x_tables.h	/^			struct xt_match *match;$/;"	m	struct:xt_entry_match::__anon8::__anon10	typeref:struct:xt_entry_match::__anon8::__anon10::xt_match
+match	/usr/include/linux/netfilter/xt_policy.h	/^	struct xt_policy_spec	match;$/;"	m	struct:xt_policy_elem	typeref:struct:xt_policy_elem::xt_policy_spec
+match_size	/usr/include/linux/netfilter/x_tables.h	/^			u_int16_t match_size;$/;"	m	struct:xt_entry_match::__anon8::__anon10
+match_size	/usr/include/linux/netfilter/x_tables.h	/^			u_int16_t match_size;$/;"	m	struct:xt_entry_match::__anon8::__anon9
+match_size	/usr/include/linux/netfilter/x_tables.h	/^		u_int16_t match_size;$/;"	m	union:xt_entry_match::__anon8
+max	/usr/include/linux/netfilter/xt_length.h	/^    u_int16_t	min, max;$/;"	m	struct:xt_length_info
+min	/usr/include/linux/netfilter/xt_length.h	/^    u_int16_t	min, max;$/;"	m	struct:xt_length_info
+mode	/usr/include/linux/netfilter/xt_CONNMARK.h	/^	u_int8_t mode;$/;"	m	struct:xt_connmark_target_info
+mode	/usr/include/linux/netfilter/xt_CONNSECMARK.h	/^	u_int8_t mode;$/;"	m	struct:xt_connsecmark_target_info
+mode	/usr/include/linux/netfilter/xt_MARK.h	/^	u_int8_t mode;$/;"	m	struct:xt_mark_target_info_v1
+mode	/usr/include/linux/netfilter/xt_SECMARK.h	/^	u_int8_t mode;$/;"	m	struct:xt_secmark_target_info
+mode	/usr/include/linux/netfilter/xt_policy.h	/^			mode:1,$/;"	m	struct:xt_policy_spec
+mode	/usr/include/linux/netfilter/xt_policy.h	/^	u_int8_t		mode;$/;"	m	struct:xt_policy_elem
+mss_max	/usr/include/linux/netfilter/xt_tcpmss.h	/^    u_int16_t mss_min, mss_max;$/;"	m	struct:xt_tcpmss_match_info
+mss_min	/usr/include/linux/netfilter/xt_tcpmss.h	/^    u_int16_t mss_min, mss_max;$/;"	m	struct:xt_tcpmss_match_info
+name	/usr/include/linux/netfilter/x_tables.h	/^			char name[XT_FUNCTION_MAXNAMELEN-1];$/;"	m	struct:xt_entry_match::__anon8::__anon9
+name	/usr/include/linux/netfilter/x_tables.h	/^			char name[XT_FUNCTION_MAXNAMELEN-1];$/;"	m	struct:xt_entry_target::__anon11::__anon12
+name	/usr/include/linux/netfilter/x_tables.h	/^	char name[XT_FUNCTION_MAXNAMELEN-1];$/;"	m	struct:xt_get_revision
+name	/usr/include/linux/netfilter/x_tables.h	/^	char name[XT_TABLE_MAXNAMELEN];$/;"	m	struct:xt_counters_info
+name	/usr/include/linux/netfilter/xt_helper.h	/^	char name[30];$/;"	m	struct:xt_helper_info
+nfa_len	/usr/include/linux/netfilter/nfnetlink.h	/^	u_int16_t nfa_len;$/;"	m	struct:nfattr
+nfa_type	/usr/include/linux/netfilter/nfnetlink.h	/^	u_int16_t nfa_type;	\/* we use 15 bits for the type, and the highest$/;"	m	struct:nfattr
+nfattr	/usr/include/linux/netfilter/nfnetlink.h	/^struct nfattr$/;"	s
+nfgen_family	/usr/include/linux/netfilter/nfnetlink.h	/^	u_int8_t  nfgen_family;		\/* AF_xxx *\/$/;"	m	struct:nfgenmsg
+nfgenmsg	/usr/include/linux/netfilter/nfnetlink.h	/^struct nfgenmsg {$/;"	s
+nfnetlink_groups	/usr/include/linux/netfilter/nfnetlink.h	/^enum nfnetlink_groups {$/;"	g
+nfqnl_attr_config	/usr/include/linux/netfilter/nfnetlink_queue.h	/^enum nfqnl_attr_config {$/;"	g
+nfqnl_attr_type	/usr/include/linux/netfilter/nfnetlink_queue.h	/^enum nfqnl_attr_type {$/;"	g
+nfqnl_config_mode	/usr/include/linux/netfilter/nfnetlink_queue.h	/^enum nfqnl_config_mode {$/;"	g
+nfqnl_msg_config_cmd	/usr/include/linux/netfilter/nfnetlink_queue.h	/^struct nfqnl_msg_config_cmd {$/;"	s
+nfqnl_msg_config_cmds	/usr/include/linux/netfilter/nfnetlink_queue.h	/^enum nfqnl_msg_config_cmds {$/;"	g
+nfqnl_msg_config_params	/usr/include/linux/netfilter/nfnetlink_queue.h	/^struct nfqnl_msg_config_params {$/;"	s
+nfqnl_msg_packet_hdr	/usr/include/linux/netfilter/nfnetlink_queue.h	/^struct nfqnl_msg_packet_hdr {$/;"	s
+nfqnl_msg_packet_hw	/usr/include/linux/netfilter/nfnetlink_queue.h	/^struct nfqnl_msg_packet_hw {$/;"	s
+nfqnl_msg_packet_timestamp	/usr/include/linux/netfilter/nfnetlink_queue.h	/^struct nfqnl_msg_packet_timestamp {$/;"	s
+nfqnl_msg_types	/usr/include/linux/netfilter/nfnetlink_queue.h	/^enum nfqnl_msg_types {$/;"	g
+nfqnl_msg_verdict_hdr	/usr/include/linux/netfilter/nfnetlink_queue.h	/^struct nfqnl_msg_verdict_hdr {$/;"	s
+nfulnl_attr_config	/usr/include/linux/netfilter/nfnetlink_log.h	/^enum nfulnl_attr_config {$/;"	g
+nfulnl_attr_type	/usr/include/linux/netfilter/nfnetlink_log.h	/^enum nfulnl_attr_type {$/;"	g
+nfulnl_msg_config_cmd	/usr/include/linux/netfilter/nfnetlink_log.h	/^struct nfulnl_msg_config_cmd {$/;"	s
+nfulnl_msg_config_cmds	/usr/include/linux/netfilter/nfnetlink_log.h	/^enum nfulnl_msg_config_cmds {$/;"	g
+nfulnl_msg_config_mode	/usr/include/linux/netfilter/nfnetlink_log.h	/^struct nfulnl_msg_config_mode {$/;"	s
+nfulnl_msg_packet_hdr	/usr/include/linux/netfilter/nfnetlink_log.h	/^struct nfulnl_msg_packet_hdr {$/;"	s
+nfulnl_msg_packet_hw	/usr/include/linux/netfilter/nfnetlink_log.h	/^struct nfulnl_msg_packet_hw {$/;"	s
+nfulnl_msg_packet_timestamp	/usr/include/linux/netfilter/nfnetlink_log.h	/^struct nfulnl_msg_packet_timestamp {$/;"	s
+nfulnl_msg_types	/usr/include/linux/netfilter/nfnetlink_log.h	/^enum nfulnl_msg_types {$/;"	g
+num_counters	/usr/include/linux/netfilter/x_tables.h	/^	unsigned int num_counters;$/;"	m	struct:xt_counters_info
+option	/usr/include/linux/netfilter/xt_dccp.h	/^	u_int8_t option;$/;"	m	struct:xt_dccp_info
+option	/usr/include/linux/netfilter/xt_tcpudp.h	/^	u_int8_t option;			\/* TCP Option iff non-zero*\/$/;"	m	struct:xt_tcp
+out_mask	/usr/include/linux/netfilter/xt_physdev.h	/^	char out_mask[IFNAMSIZ];$/;"	m	struct:xt_physdev_info
+packet_id	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int32_t	packet_id;	\/* unique ID of packet in queue *\/$/;"	m	struct:nfqnl_msg_packet_hdr
+patlen	/usr/include/linux/netfilter/xt_string.h	/^	u_int8_t  patlen;$/;"	m	struct:xt_string_info
+pattern	/usr/include/linux/netfilter/xt_string.h	/^	char 	  pattern[XT_STRING_MAX_PATTERN_SIZE];$/;"	m	struct:xt_string_info
+pcnt	/usr/include/linux/netfilter/x_tables.h	/^	u_int64_t pcnt, bcnt;			\/* Packet and byte counters *\/$/;"	m	struct:xt_counters
+pf	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int16_t	pf;		\/* AF_xxx for PF_[UN]BIND *\/$/;"	m	struct:nfqnl_msg_config_cmd
+pflags	/usr/include/linux/netfilter/xt_multiport.h	/^	u_int8_t pflags[XT_MULTI_PORTS];	\/* Port flags *\/$/;"	m	struct:xt_multiport_v1
+physindev	/usr/include/linux/netfilter/xt_physdev.h	/^	char physindev[IFNAMSIZ];$/;"	m	struct:xt_physdev_info
+physoutdev	/usr/include/linux/netfilter/xt_physdev.h	/^	char physoutdev[IFNAMSIZ];$/;"	m	struct:xt_physdev_info
+pkttype	/usr/include/linux/netfilter/xt_pkttype.h	/^	int	pkttype;$/;"	m	struct:xt_pkttype_info
+pol	/usr/include/linux/netfilter/xt_policy.h	/^	struct xt_policy_elem pol[XT_POLICY_MAX_ELEM];$/;"	m	struct:xt_policy_info	typeref:struct:xt_policy_info::xt_policy_elem
+ports	/usr/include/linux/netfilter/xt_multiport.h	/^	u_int16_t ports[XT_MULTI_PORTS];	\/* Ports *\/$/;"	m	struct:xt_multiport
+ports	/usr/include/linux/netfilter/xt_multiport.h	/^	u_int16_t ports[XT_MULTI_PORTS];	\/* Ports *\/$/;"	m	struct:xt_multiport_v1
+prev	/usr/include/linux/netfilter/xt_limit.h	/^	unsigned long prev;$/;"	m	struct:xt_rateinfo
+priority	/usr/include/linux/netfilter/xt_CLASSIFY.h	/^	u_int32_t priority;$/;"	m	struct:xt_classify_target_info
+proto	/usr/include/linux/netfilter/xt_policy.h	/^			proto:1,$/;"	m	struct:xt_policy_spec
+proto	/usr/include/linux/netfilter/xt_policy.h	/^	u_int8_t		proto;$/;"	m	struct:xt_policy_elem
+protonum	/usr/include/linux/netfilter/xt_conntrack.h	/^		__u16 protonum;$/;"	m	struct:ip_conntrack_old_tuple::__anon3
+queuenum	/usr/include/linux/netfilter/xt_NFQUEUE.h	/^	u_int16_t queuenum;$/;"	m	struct:xt_NFQ_info
+reqid	/usr/include/linux/netfilter/xt_policy.h	/^			reqid:1;$/;"	m	struct:xt_policy_spec
+reqid	/usr/include/linux/netfilter/xt_policy.h	/^	u_int32_t		reqid;$/;"	m	struct:xt_policy_elem
+res_id	/usr/include/linux/netfilter/nfnetlink.h	/^	u_int16_t res_id;		\/* resource id *\/$/;"	m	struct:nfgenmsg
+revision	/usr/include/linux/netfilter/x_tables.h	/^			u_int8_t revision;$/;"	m	struct:xt_entry_match::__anon8::__anon9
+revision	/usr/include/linux/netfilter/x_tables.h	/^			u_int8_t revision;$/;"	m	struct:xt_entry_target::__anon11::__anon12
+revision	/usr/include/linux/netfilter/x_tables.h	/^	u_int8_t revision;$/;"	m	struct:xt_get_revision
+saddr	/usr/include/linux/netfilter/xt_policy.h	/^	u_int8_t	saddr:1,$/;"	m	struct:xt_policy_spec
+saddr	/usr/include/linux/netfilter/xt_policy.h	/^	union xt_policy_addr	saddr;$/;"	m	struct:xt_policy_elem	typeref:union:xt_policy_elem::xt_policy_addr
+sctp_conntrack	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^enum sctp_conntrack {$/;"	g
+sec	/usr/include/linux/netfilter/nfnetlink_log.h	/^	aligned_u64	sec;$/;"	m	struct:nfulnl_msg_packet_timestamp
+sec	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	aligned_u64	sec;$/;"	m	struct:nfqnl_msg_packet_timestamp
+sel	/usr/include/linux/netfilter/xt_SECMARK.h	/^		struct xt_secmark_target_selinux_info sel;$/;"	m	union:xt_secmark_target_info::__anon7	typeref:struct:xt_secmark_target_info::__anon7::xt_secmark_target_selinux_info
+selctx	/usr/include/linux/netfilter/xt_SECMARK.h	/^	char selctx[SECMARK_SELCTX_MAX];$/;"	m	struct:xt_secmark_target_selinux_info
+selsid	/usr/include/linux/netfilter/xt_SECMARK.h	/^	u_int32_t selsid;$/;"	m	struct:xt_secmark_target_selinux_info
+sipmsk	/usr/include/linux/netfilter/xt_conntrack.h	/^	struct in_addr sipmsk[IP_CT_DIR_MAX], dipmsk[IP_CT_DIR_MAX];$/;"	m	struct:xt_conntrack_info	typeref:struct:xt_conntrack_info::in_addr
+smask	/usr/include/linux/netfilter/xt_policy.h	/^	union xt_policy_addr	smask;$/;"	m	struct:xt_policy_elem	typeref:union:xt_policy_elem::xt_policy_addr
+spi	/usr/include/linux/netfilter/xt_policy.h	/^			spi:1,$/;"	m	struct:xt_policy_spec
+spi	/usr/include/linux/netfilter/xt_policy.h	/^	u_int32_t		spi;$/;"	m	struct:xt_policy_elem
+spis	/usr/include/linux/netfilter/xt_esp.h	/^	u_int32_t spis[2];	\/* Security Parameter Index *\/$/;"	m	struct:xt_esp
+spts	/usr/include/linux/netfilter/xt_dccp.h	/^	u_int16_t spts[2];  \/* Min, Max *\/$/;"	m	struct:xt_dccp_info
+spts	/usr/include/linux/netfilter/xt_sctp.h	/^	u_int16_t spts[2];  \/* Min, Max *\/$/;"	m	struct:xt_sctp_info
+spts	/usr/include/linux/netfilter/xt_tcpudp.h	/^	u_int16_t spts[2];			\/* Source port range. *\/$/;"	m	struct:xt_tcp
+spts	/usr/include/linux/netfilter/xt_tcpudp.h	/^	u_int16_t spts[2];			\/* Source port range. *\/$/;"	m	struct:xt_udp
+src	/usr/include/linux/netfilter/xt_conntrack.h	/^	} src;$/;"	m	struct:ip_conntrack_old_tuple	typeref:struct:ip_conntrack_old_tuple::__anon1
+srcaddr	/usr/include/linux/netfilter/xt_mac.h	/^    unsigned char srcaddr[ETH_ALEN];$/;"	m	struct:xt_mac_info
+state	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	enum sctp_conntrack state;$/;"	m	struct:ip_ct_sctp	typeref:enum:ip_ct_sctp::sctp_conntrack
+statemask	/usr/include/linux/netfilter/xt_conntrack.h	/^	unsigned int statemask, statusmask;$/;"	m	struct:xt_conntrack_info
+statemask	/usr/include/linux/netfilter/xt_state.h	/^	unsigned int statemask;$/;"	m	struct:xt_state_info
+statusmask	/usr/include/linux/netfilter/xt_conntrack.h	/^	unsigned int statemask, statusmask;$/;"	m	struct:xt_conntrack_info
+target	/usr/include/linux/netfilter/x_tables.h	/^			struct xt_target *target;$/;"	m	struct:xt_entry_target::__anon11::__anon13	typeref:struct:xt_entry_target::__anon11::__anon13::xt_target
+target	/usr/include/linux/netfilter/x_tables.h	/^	struct xt_entry_target target;$/;"	m	struct:xt_standard_target	typeref:struct:xt_standard_target::xt_entry_target
+target_size	/usr/include/linux/netfilter/x_tables.h	/^			u_int16_t target_size;$/;"	m	struct:xt_entry_target::__anon11::__anon12
+target_size	/usr/include/linux/netfilter/x_tables.h	/^			u_int16_t target_size;$/;"	m	struct:xt_entry_target::__anon11::__anon13
+target_size	/usr/include/linux/netfilter/x_tables.h	/^		u_int16_t target_size;$/;"	m	union:xt_entry_target::__anon11
+tcp_conntrack	/usr/include/linux/netfilter/nf_conntrack_tcp.h	/^enum tcp_conntrack {$/;"	g
+to	/usr/include/linux/netfilter/xt_connbytes.h	/^		aligned_u64 to;		\/* count to be matched *\/$/;"	m	struct:xt_connbytes_info::__anon15
+to_offset	/usr/include/linux/netfilter/xt_string.h	/^	u_int16_t to_offset;$/;"	m	struct:xt_string_info
+ttag	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	u_int32_t ttag[IP_CT_DIR_MAX];$/;"	m	struct:ip_ct_sctp
+tuple	/usr/include/linux/netfilter/xt_conntrack.h	/^	struct ip_conntrack_old_tuple tuple[IP_CT_DIR_MAX];$/;"	m	struct:xt_conntrack_info	typeref:struct:xt_conntrack_info::ip_conntrack_old_tuple
+typemask	/usr/include/linux/netfilter/xt_dccp.h	/^	u_int16_t typemask;$/;"	m	struct:xt_dccp_info
+u	/usr/include/linux/netfilter/x_tables.h	/^	} u;$/;"	m	struct:xt_entry_match	typeref:union:xt_entry_match::__anon8
+u	/usr/include/linux/netfilter/x_tables.h	/^	} u;$/;"	m	struct:xt_entry_target	typeref:union:xt_entry_target::__anon11
+u	/usr/include/linux/netfilter/xt_SECMARK.h	/^	} u;$/;"	m	struct:xt_secmark_target_info	typeref:union:xt_secmark_target_info::__anon7
+u	/usr/include/linux/netfilter/xt_conntrack.h	/^		} u;$/;"	m	struct:ip_conntrack_old_tuple::__anon1	typeref:union:ip_conntrack_old_tuple::__anon1::__anon2
+u	/usr/include/linux/netfilter/xt_conntrack.h	/^		} u;$/;"	m	struct:ip_conntrack_old_tuple::__anon3	typeref:union:ip_conntrack_old_tuple::__anon3::__anon4
+u16	/usr/include/linux/netfilter/x_tables.h	/^	u_int16_t u16;$/;"	m	struct:_xt_align
+u32	/usr/include/linux/netfilter/x_tables.h	/^	u_int32_t u32;$/;"	m	struct:_xt_align
+u64	/usr/include/linux/netfilter/x_tables.h	/^	u_int64_t u64;$/;"	m	struct:_xt_align
+u8	/usr/include/linux/netfilter/x_tables.h	/^	u_int8_t u8;$/;"	m	struct:_xt_align
+usec	/usr/include/linux/netfilter/nfnetlink_log.h	/^	aligned_u64	usec;$/;"	m	struct:nfulnl_msg_packet_timestamp
+usec	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	aligned_u64	usec;$/;"	m	struct:nfqnl_msg_packet_timestamp
+user	/usr/include/linux/netfilter/x_tables.h	/^		} user;$/;"	m	union:xt_entry_match::__anon8	typeref:struct:xt_entry_match::__anon8::__anon9
+user	/usr/include/linux/netfilter/x_tables.h	/^		} user;$/;"	m	union:xt_entry_target::__anon11	typeref:struct:xt_entry_target::__anon11::__anon12
+verdict	/usr/include/linux/netfilter/nfnetlink_queue.h	/^	u_int32_t verdict;$/;"	m	struct:nfqnl_msg_verdict_hdr
+verdict	/usr/include/linux/netfilter/x_tables.h	/^	int verdict;$/;"	m	struct:xt_standard_target
+version	/usr/include/linux/netfilter/nfnetlink.h	/^	u_int8_t  version;		\/* nfnetlink version *\/$/;"	m	struct:nfgenmsg
+vtag	/usr/include/linux/netfilter/nf_conntrack_sctp.h	/^	u_int32_t vtag[IP_CT_DIR_MAX];$/;"	m	struct:ip_ct_sctp
+what	/usr/include/linux/netfilter/xt_connbytes.h	/^	u_int8_t what;		\/* ipt_connbytes_what *\/$/;"	m	struct:xt_connbytes_info
+xt_NFQ_info	/usr/include/linux/netfilter/xt_NFQUEUE.h	/^struct xt_NFQ_info {$/;"	s
+xt_classify_target_info	/usr/include/linux/netfilter/xt_CLASSIFY.h	/^struct xt_classify_target_info {$/;"	s
+xt_comment_info	/usr/include/linux/netfilter/xt_comment.h	/^struct xt_comment_info {$/;"	s
+xt_connbytes_direction	/usr/include/linux/netfilter/xt_connbytes.h	/^enum xt_connbytes_direction {$/;"	g
+xt_connbytes_info	/usr/include/linux/netfilter/xt_connbytes.h	/^struct xt_connbytes_info$/;"	s
+xt_connbytes_what	/usr/include/linux/netfilter/xt_connbytes.h	/^enum xt_connbytes_what {$/;"	g
+xt_connmark_info	/usr/include/linux/netfilter/xt_connmark.h	/^struct xt_connmark_info {$/;"	s
+xt_connmark_target_info	/usr/include/linux/netfilter/xt_CONNMARK.h	/^struct xt_connmark_target_info {$/;"	s
+xt_connsecmark_target_info	/usr/include/linux/netfilter/xt_CONNSECMARK.h	/^struct xt_connsecmark_target_info {$/;"	s
+xt_conntrack_info	/usr/include/linux/netfilter/xt_conntrack.h	/^struct xt_conntrack_info$/;"	s
+xt_counters	/usr/include/linux/netfilter/x_tables.h	/^struct xt_counters$/;"	s
+xt_counters_info	/usr/include/linux/netfilter/x_tables.h	/^struct xt_counters_info$/;"	s
+xt_dccp_info	/usr/include/linux/netfilter/xt_dccp.h	/^struct xt_dccp_info {$/;"	s
+xt_entry_match	/usr/include/linux/netfilter/x_tables.h	/^struct xt_entry_match$/;"	s
+xt_entry_target	/usr/include/linux/netfilter/x_tables.h	/^struct xt_entry_target$/;"	s
+xt_esp	/usr/include/linux/netfilter/xt_esp.h	/^struct xt_esp$/;"	s
+xt_get_revision	/usr/include/linux/netfilter/x_tables.h	/^struct xt_get_revision$/;"	s
+xt_helper_info	/usr/include/linux/netfilter/xt_helper.h	/^struct xt_helper_info {$/;"	s
+xt_length_info	/usr/include/linux/netfilter/xt_length.h	/^struct xt_length_info {$/;"	s
+xt_mac_info	/usr/include/linux/netfilter/xt_mac.h	/^struct xt_mac_info {$/;"	s
+xt_mark_info	/usr/include/linux/netfilter/xt_mark.h	/^struct xt_mark_info {$/;"	s
+xt_mark_target_info	/usr/include/linux/netfilter/xt_MARK.h	/^struct xt_mark_target_info {$/;"	s
+xt_mark_target_info_v1	/usr/include/linux/netfilter/xt_MARK.h	/^struct xt_mark_target_info_v1 {$/;"	s
+xt_multiport	/usr/include/linux/netfilter/xt_multiport.h	/^struct xt_multiport$/;"	s
+xt_multiport_flags	/usr/include/linux/netfilter/xt_multiport.h	/^enum xt_multiport_flags$/;"	g
+xt_multiport_v1	/usr/include/linux/netfilter/xt_multiport.h	/^struct xt_multiport_v1$/;"	s
+xt_physdev_info	/usr/include/linux/netfilter/xt_physdev.h	/^struct xt_physdev_info {$/;"	s
+xt_pkttype_info	/usr/include/linux/netfilter/xt_pkttype.h	/^struct xt_pkttype_info {$/;"	s
+xt_policy_addr	/usr/include/linux/netfilter/xt_policy.h	/^union xt_policy_addr$/;"	u
+xt_policy_elem	/usr/include/linux/netfilter/xt_policy.h	/^struct xt_policy_elem$/;"	s
+xt_policy_flags	/usr/include/linux/netfilter/xt_policy.h	/^enum xt_policy_flags$/;"	g
+xt_policy_info	/usr/include/linux/netfilter/xt_policy.h	/^struct xt_policy_info$/;"	s
+xt_policy_modes	/usr/include/linux/netfilter/xt_policy.h	/^enum xt_policy_modes$/;"	g
+xt_policy_spec	/usr/include/linux/netfilter/xt_policy.h	/^struct xt_policy_spec$/;"	s
+xt_rateinfo	/usr/include/linux/netfilter/xt_limit.h	/^struct xt_rateinfo {$/;"	s
+xt_realm_info	/usr/include/linux/netfilter/xt_realm.h	/^struct xt_realm_info {$/;"	s
+xt_sctp_flag_info	/usr/include/linux/netfilter/xt_sctp.h	/^struct xt_sctp_flag_info {$/;"	s
+xt_sctp_info	/usr/include/linux/netfilter/xt_sctp.h	/^struct xt_sctp_info {$/;"	s
+xt_secmark_target_info	/usr/include/linux/netfilter/xt_SECMARK.h	/^struct xt_secmark_target_info {$/;"	s
+xt_secmark_target_selinux_info	/usr/include/linux/netfilter/xt_SECMARK.h	/^struct xt_secmark_target_selinux_info {$/;"	s
+xt_standard_target	/usr/include/linux/netfilter/x_tables.h	/^struct xt_standard_target$/;"	s
+xt_state_info	/usr/include/linux/netfilter/xt_state.h	/^struct xt_state_info$/;"	s
+xt_string_info	/usr/include/linux/netfilter/xt_string.h	/^struct xt_string_info$/;"	s
+xt_tcp	/usr/include/linux/netfilter/xt_tcpudp.h	/^struct xt_tcp$/;"	s
+xt_tcpmss_match_info	/usr/include/linux/netfilter/xt_tcpmss.h	/^struct xt_tcpmss_match_info {$/;"	s
+xt_udp	/usr/include/linux/netfilter/xt_tcpudp.h	/^struct xt_udp$/;"	s

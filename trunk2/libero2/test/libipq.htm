@@ -1,0 +1,427 @@
+
+<HTML><HEAD><TITLE>Manpage of LIBIPQ</TITLE>
+</HEAD><BODY>
+<H1>LIBIPQ</H1>
+Section: Linux Programmer's Manual (3)<BR>Updated: 16 October 2001<BR><A HREF="#index">Index</A>
+<A HREF="http://localhost/cgi-bin/man/man2html">Return to Main Contents</A><HR>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<A NAME="lbAB">&nbsp;</A>
+<H2>NAME</H2>
+
+libipq - iptables userspace packet queuing library.
+<A NAME="lbAC">&nbsp;</A>
+<H2>SYNOPSIS</H2>
+
+<B>#include &lt;<A HREF="file:/usr/include/linux/netfilter.h">linux/netfilter.h</A>&gt;</B>
+
+<BR>
+
+<B>#include &lt;<A HREF="file:/usr/include/libipq.h">libipq.h</A>&gt;</B>
+
+<A NAME="lbAD">&nbsp;</A>
+<H2>DESCRIPTION</H2>
+
+libipq is a development library for iptables userspace packet queuing.
+<A NAME="lbAE">&nbsp;</A>
+<H3>Userspace Packet Queuing</H3>
+
+Netfilter provides a mechanism for passing packets out of the stack for
+queueing to userspace, then receiving these packets back into the kernel
+with a verdict specifying what to do with the packets (such as ACCEPT
+or DROP).  These packets may also be modified in userspace prior to
+reinjection back into the kernel.
+<P>
+
+For each supported protocol, a kernel module called a
+<I>queue handler</I>
+
+may register with Netfilter to perform the mechanics of passing
+packets to and from userspace.
+<P>
+
+The standard queue handler for IPv4 is ip_queue.  It is provided as an
+experimental module with 2.4 kernels, and uses a Netlink socket for
+kernel/userspace communication.
+<P>
+
+Once ip_queue is loaded, IP packets may be selected with iptables
+and queued for userspace processing via the QUEUE target.  For example,
+running the following commands:
+<P>
+
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TT># modprobe iptable_filter<BR>
+<BR>
+
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TT># modprobe ip_queue<BR>
+<BR>
+
+<TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TT># iptables -A OUTPUT -p icmp -j QUEUE<BR>
+<P>
+
+will cause any locally generated ICMP packets (e.g. ping output) to
+be sent to the ip_queue module, which will then attempt to deliver the
+packets to a userspace application.  If no userspace application is waiting,
+the packets will be dropped
+<P>
+
+An application may receive and process these packets via libipq.
+<P>
+
+<P>
+
+<A NAME="lbAF">&nbsp;</A>
+<H3>Libipq Overview</H3>
+
+Libipq provides an API for communicating with ip_queue.  The following is
+an overview of API usage, refer to individual man pages for more details
+on each function.
+<P>
+
+<B>Initialisation</B>
+
+<BR>
+
+To initialise the library, call
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_create_handle">ipq_create_handle</A></B>(3).
+
+This will attempt to bind to the Netlink socket used by ip_queue and
+return an opaque context handle for subsequent library calls.
+<P>
+
+<B>Setting the Queue Mode</B>
+
+<BR>
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_set_mode">ipq_set_mode</A></B>(3)
+
+allows the application to specify whether packet metadata, or packet
+payloads as well as metadata are copied to userspace.  It is also used to
+initially notify ip_queue that an application is ready to receive queue
+messages.
+<P>
+
+<B>Receiving Packets from the Queue</B>
+
+<BR>
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_read">ipq_read</A></B>(3)
+
+waits for queue messages to arrive from ip_queue and copies
+them into a supplied buffer.
+Queue messages may be
+<I>packet messages</I>
+
+or
+<I>error messages.</I>
+
+<P>
+
+The type of packet may be determined with
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_message_type">ipq_message_type</A></B>(3).
+
+<P>
+
+If it's a packet message, the metadata and optional payload may be retrieved with
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_get_packet">ipq_get_packet</A></B>(3).
+
+<P>
+
+To retrieve the value of an error message, use
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_get_msgerr">ipq_get_msgerr</A></B>(3).
+
+<P>
+
+<B>Issuing Verdicts on Packets</B>
+
+<BR>
+
+To issue a verdict on a packet, and optionally return a modified version
+of the packet to the kernel, call
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_set_verdict">ipq_set_verdict</A></B>(3).
+
+<P>
+
+<B>Error Handling</B>
+
+<BR>
+
+An error string corresponding to the current value of the internal error
+variable
+<B>ipq_errno</B>
+
+may be obtained with
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_errstr">ipq_errstr</A></B>(3).
+
+<P>
+
+For simple applications, calling
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_perror">ipq_perror</A></B>(3)
+
+will print the same message as
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_errstr">ipq_errstr</A></B>(3),
+
+as well as the string corresponding to the global
+<B>errno</B>
+
+value (if set) to stderr.
+<P>
+
+<B>Cleaning Up</B>
+
+<BR>
+
+To free up the Netlink socket and destroy resources associated with
+the context handle, call
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_destroy_handle">ipq_destroy_handle</A></B>(3).
+
+<A NAME="lbAG">&nbsp;</A>
+<H2>SUMMARY</H2>
+
+<DL COMPACT>
+<DT><B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_create_handle">ipq_create_handle</A></B>(3)
+
+<DD>
+Initialise library, return context handle.
+<DT><B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_set_mode">ipq_set_mode</A></B>(3)
+
+<DD>
+Set the queue mode, to copy either packet metadata, or payloads
+as well as metadata to userspace.
+<DT><B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_read">ipq_read</A></B>(3)
+
+<DD>
+Wait for a queue message to arrive from ip_queue and read it into
+a buffer.
+<DT><B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_message_type">ipq_message_type</A></B>(3)
+
+<DD>
+Determine message type in the buffer.
+<DT><B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_get_packet">ipq_get_packet</A></B>(3)
+
+<DD>
+Retrieve a packet message from the buffer.
+<DT><B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_get_msgerr">ipq_get_msgerr</A></B>(3)
+
+<DD>
+Retrieve an error message from the buffer.
+<DT><B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_set_verdict">ipq_set_verdict</A></B>(3)
+
+<DD>
+Set a verdict on a packet, optionally replacing its contents.
+<DT><B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_errstr">ipq_errstr</A></B>(3)
+
+<DD>
+Return an error message corresponding to the internal ipq_errno variable.
+<DT><B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_perror">ipq_perror</A></B>(3)
+
+<DD>
+Helper function to print error messages to stderr.
+<DT><B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_destroy_handle">ipq_destroy_handle</A></B>(3)
+
+<DD>
+Destroy context handle and associated resources.
+</DL>
+<A NAME="lbAH">&nbsp;</A>
+<H2>EXAMPLE</H2>
+
+The following is an example of a simple application which receives
+packets and issues NF_ACCEPT verdicts on each packet.
+<DL COMPACT><DT><DD>
+<PRE>
+/*
+ * This code is GPL.
+ */
+#include &lt;<A HREF="file:/usr/include/linux/netfilter.h">linux/netfilter.h</A>&gt;
+#include &lt;<A HREF="file:/usr/include/libipq.h">libipq.h</A>&gt;
+#include &lt;<A HREF="file:/usr/include/stdio.h">stdio.h</A>&gt;
+
+#define BUFSIZE 2048 
+
+static void die(struct ipq_handle *h)
+{
+        ipq_perror(&quot;passer&quot;);
+        ipq_destroy_handle(h);
+        <A HREF="http://localhost/cgi-bin/man/man2html?1+exit">exit</A>(1);
+}
+
+int main(int argc, char **argv)
+{
+        int status;
+        unsigned char buf[BUFSIZE];
+        struct ipq_handle *h;
+        
+        h = ipq_create_handle(0, PF_INET);
+        if (!h)
+                die(h);
+                
+        status = ipq_set_mode(h, IPQ_COPY_PACKET, BUFSIZE);
+        if (status &lt; 0)
+                die(h);
+                
+        do{
+                status = ipq_read(h, buf, BUFSIZE, 0);
+                if (status &lt; 0)
+                        die(h);
+                        
+                switch (ipq_message_type(buf)) {
+                        case NLMSG_ERROR:
+                                fprintf(stderr, &quot;Received error message %d\n&quot;,
+                                        ipq_get_msgerr(buf));
+                                break;
+                                
+                        case IPQM_PACKET: {
+                                ipq_packet_msg_t *m = ipq_get_packet(buf);
+                                
+                                status = ipq_set_verdict(h, m-&gt;packet_id,
+                                                         NF_ACCEPT, 0, NULL);
+                                if (status &lt; 0)
+                                        die(h);
+                                break;
+                        }
+                        
+                        default:
+                                fprintf(stderr, &quot;Unknown message type!\n&quot;);
+                                break;
+                }
+        } while (1);
+        
+        ipq_destroy_handle(h);
+        return 0;
+}
+</DL>
+</PRE>
+
+<P>
+
+Pointers to more libipq application examples may be found in The
+Netfilter FAQ.
+<A NAME="lbAI">&nbsp;</A>
+<H2>DIAGNOSTICS</H2>
+
+For information about monitoring and tuning ip_queue, refer to the
+Linux 2.4 Packet Filtering HOWTO.
+<P>
+
+If an application modifies a packet, it needs to also update any
+checksums for the packet.  Typically, the kernel will silently discard
+modified packets with invalid checksums. 
+<A NAME="lbAJ">&nbsp;</A>
+<H2>SECURITY</H2>
+
+Processes require CAP_NET_ADMIN capabilty to access the kernel ip_queue
+module.  Such processes can potentially access and modify any IP packets
+received, generated or forwarded by the kernel.
+<A NAME="lbAK">&nbsp;</A>
+<H2>TODO</H2>
+
+Per-handle
+<B>ipq_errno</B>
+
+values.
+<A NAME="lbAL">&nbsp;</A>
+<H2>BUGS</H2>
+
+Probably.
+<A NAME="lbAM">&nbsp;</A>
+<H2>AUTHOR</H2>
+
+James Morris &lt;<A HREF="mailto:jmorris@intercode.com.au">jmorris@intercode.com.au</A>&gt;
+<A NAME="lbAN">&nbsp;</A>
+<H2>COPYRIGHT</H2>
+
+Copyright (c) 2000-2001 Netfilter Core Team.
+<P>
+
+Distributed under the GNU General Public License.
+<A NAME="lbAO">&nbsp;</A>
+<H2>CREDITS</H2>
+
+Joost Remijn implemented the
+<B>ipq_read</B>
+
+timeout feature, which appeared in the 1.2.4 release of iptables.
+<P>
+
+Fernando Anton added support for IPv6.
+<A NAME="lbAP">&nbsp;</A>
+<H2>SEE ALSO</H2>
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?8+iptables">iptables</A></B>(8),
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_create_handle">ipq_create_handle</A></B>(3),
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_destroy_handle">ipq_destroy_handle</A></B>(3),
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_errstr">ipq_errstr</A></B>(3),
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_get_msgerr">ipq_get_msgerr</A></B>(3),
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_get_packet">ipq_get_packet</A></B>(3),
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_message_type">ipq_message_type</A></B>(3),
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_perror">ipq_perror</A></B>(3),
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_read">ipq_read</A></B>(3),
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_set_mode">ipq_set_mode</A></B>(3),
+
+<B><A HREF="http://localhost/cgi-bin/man/man2html?3+ipq_set_verdict">ipq_set_verdict</A></B>(3).
+
+<P>
+
+The Netfilter home page at <A HREF="http://netfilter.samba.org/">http://netfilter.samba.org/</A>
+which has links to The Networking Concepts HOWTO, The Linux 2.4 Packet
+Filtering HOWTO, The Linux 2.4 NAT HOWTO, The Netfilter Hacking HOWTO,
+The Netfilter FAQ and many other useful resources.
+<P>
+<P>
+
+<HR>
+<A NAME="index">&nbsp;</A><H2>Index</H2>
+<DL>
+<DT><A HREF="#lbAB">NAME</A><DD>
+<DT><A HREF="#lbAC">SYNOPSIS</A><DD>
+<DT><A HREF="#lbAD">DESCRIPTION</A><DD>
+<DL>
+<DT><A HREF="#lbAE">Userspace Packet Queuing</A><DD>
+<DT><A HREF="#lbAF">Libipq Overview</A><DD>
+</DL>
+<DT><A HREF="#lbAG">SUMMARY</A><DD>
+<DT><A HREF="#lbAH">EXAMPLE</A><DD>
+<DT><A HREF="#lbAI">DIAGNOSTICS</A><DD>
+<DT><A HREF="#lbAJ">SECURITY</A><DD>
+<DT><A HREF="#lbAK">TODO</A><DD>
+<DT><A HREF="#lbAL">BUGS</A><DD>
+<DT><A HREF="#lbAM">AUTHOR</A><DD>
+<DT><A HREF="#lbAN">COPYRIGHT</A><DD>
+<DT><A HREF="#lbAO">CREDITS</A><DD>
+<DT><A HREF="#lbAP">SEE ALSO</A><DD>
+</DL>
+<HR>
+This document was created by
+<A HREF="http://localhost/cgi-bin/man/man2html">man2html</A>,
+using the manual pages.<BR>
+Time: 01:09:15 GMT, July 26, 2002
+</BODY>
+</HTML>
