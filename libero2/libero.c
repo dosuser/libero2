@@ -47,6 +47,35 @@ void init(void){
 	LoadModules(&ModuleList);
 }
 
+/* 해야할 일 
+
+	현재 받은 패킷에 대해서 응답할 수 있는 패킷의 해더를 만들어 낸다.
+
+*/
+int packetHeaderRe(sin_packet_info *packetInfo, iphdr *ip){
+	
+
+	/*
+		identification값을 정해 넣는다.
+		
+		saddr과 daddr을 바꾼다.
+
+		total length를 바꾼다.
+	*/
+
+	/*
+		tcp해더의 source port 와 destination port를 바꾼다.
+		
+		tcp sequence number를 계산한다.
+
+		tcp ack number를 계산한다.
+
+	*/
+
+
+
+
+}
 
 int main(int argc, char **argv){
 	pthread_t th1, th2;
@@ -294,7 +323,6 @@ void *processing(void *t){
 							패킷 수정됐으니 체크섬 재계산-_-
 						*******************/
 						status = ipq_set_verdict(ctx->h, m->packet_id,result, 0,NULL);
-
 					}
 
 					if (status < 0) die(ctx->h);
